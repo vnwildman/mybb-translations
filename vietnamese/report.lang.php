@@ -1,19 +1,19 @@
 <?php
 /**
  * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
+ * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
  * 
- * $Id: report.lang.php 5380 2011-02-21 12:04:43Z Tomm $
+ * $Id: report.lang.php 5297 2012-02-27 22:01:14Z Community MyBB Vietnam $
  */
 
-$l['report_post'] = "Báo cáo bài viết";
-$l['report_to_mod'] = "Báo cáo bài viết này tới một người điều hành";
-$l['only_report'] = "Bạn chỉ nên báo cáo những bài viết spam, quảng cáo lung tung hoặc nội dung không lành mạnh, trái với nội quy diễn đàn.";
-$l['report_reason'] = "Lý do bạn báo cáo:";
-$l['thank_you'] = "Cảm ơn bạn.";
-$l['post_reported'] = "Bài viết đã được báo cáo. Bạn có thể đóng cửa sổ này.";
+$l['report_post'] = "Báo cáo";
+$l['report_to_mod'] = "Báo cáo bài viết cho Quản trị viên";
+$l['only_report'] = "Bạn chỉ nên báo cáo các bài viết spam, quảng cáo hoặc có nội dung xấu.";
+$l['report_reason'] = "Lí do báo cáo:";
+$l['thank_you'] = "Cảm on.";
+$l['post_reported'] = "Bài viết báo cáo thành công. Bạn có thể đóng cửa sổ này lại.";
 $l['report_error'] = "Lỗi";
-$l['no_reason'] = "Bạn không thể báo cáo một bài viết mà không có lý do.";
-$l['go_back'] = "Quay lại";
-$l['close_window'] = "Đóng cửa sổ lại";
+$l['no_reason'] = "Cho biết lý do báo cáo.";
+$l['go_back'] = "Trả lời";
+$l['close_window'] = "Ðóng";
 ?>

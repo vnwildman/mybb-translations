@@ -1,25 +1,25 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
+ * MyBB 1.6 Vietnamese Language Pack
+ * Copyright 2012 MyBB Community Vietnam, All Rights Reserved
  * 
- * $Id: akismet.lang.php 5380 2011-02-21 12:04:43Z Tomm $
+ * $Id: akismet.lang.php 5557 2012-02-24 14:06:44Z MyBB Community Vietnam $
  */
 
-$l['spam'] = "Thư rác";
+$l['spam'] = "Spam";
 
-$l['post_spam_success'] = "Bài viết đã được đánh dấu là thư rác.";
-$l['thread_spam_success'] = "Tuyến đã được đánh dấu là thư rác.";
+$l['post_spam_success'] = "Bài viết đã được xác nhận là spam.";
+$l['thread_spam_success'] = "Chủ đề đã được xác nhận là spam.";
 
-$l['mark_as_spam'] = "Đánh dấu là thư rác";
-$l['confirm_mark_as_spam'] = "Bạn có thực sự muốn đánh dấu các bài viết hay tuyến là thư rác không?";
+$l['mark_as_spam'] = "Đánh dấu là spam";
+$l['confirm_mark_as_spam'] = "Bạn có chắc là bạn muốn đánh dấu bài viết/chủ đề là spam?";
 
-$l['akismet_error'] = "Lỗi Akismet";
+$l['akismet_error'] = "Lỗi Askimet";
 
-$l['redirect_newthread'] = "Akismet đã phát hiện ra đây là thông tin rác và sẽ không được xử lý.<br />Nếu bạn thấy thông báo này thì hãy liên hệ với người quản trị của mình.";
-$l['redirect_return_forum'] = "Bạn có thể trở về diễn đàn <a href=\"{1}\">ở đây</a>.";
+$l['redirect_newthread'] = "Akismet đã nhận thấy đây là tin nhắn spam và sẽ không được thực hiện.<br />Nếu bạn cho đây là lỗi thì hãy liên hệ với người quản lý diễn đàn.";
+$l['redirect_return_forum'] = "Để chuyển về diễn đàn bạn có thể click <a href=\"{1}\">ở đây</a>.";
 
-$l['redirect_newreply'] = "Akismet đã phát hiện ra đây là thông tin rác và sẽ không được xử lý.<br />Nếu bạn thấy thông báo này thì hãy liên hệ với người quản trị hệ thống.";
-$l['redirect_return_forum']= "Bạn có thể trở lại tuyến <a href=\"{1}\">ở đây</a>.<br />Một sự lựa chọn khác là quay trở về <a href=\"{2}\">diễn đàn.</a>";
+$l['redirect_newreply'] = "Akismet đã nhận thấy đây là tin nhắn spam và sẽ không được thực hiện.<br />Nếu bạn cho đây là lỗi thì hãy liên hệ với người quản lý diễn đàn.";
+$l['redirect_return_forum']= "Để chuyển về chủ đề bạn có thể click <a href=\"{1}\">ở đây</a>.<br />hoặc có thể trở về <a href=\"{2}\">diễn đàn.</a>";
 
 ?>

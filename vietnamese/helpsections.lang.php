@@ -1,16 +1,16 @@
 <?php
 /**
- * MyBB 1.2 English Language Pack
- * Copyright © 2006 MyBB Group, All Rights Reserved
+ * MyBB 1.6 Vietnamese Language Pack
+ * Copyright 2010 MyBB Community Vietnam, All Rights Reserved
  * 
- * $Id: helpsections.lang.php 1398 2006-04-27 07:42:09Z chris $
+ * $Id: helpsections.lang.php 5297 2012-02-24 22:01:14Z MyBB Community Vietnam $
  */
 
 // Help Section 1
-$l['s1_name'] = "User Maintenance";
-$l['s1_desc'] = "Basic instructions for maintaining a forum account.";
+$l['s1_name'] = "Bảo trì tài khoản";
+$l['s1_desc'] = "Những chỉ dẫn cơ bản để bảo trì 1 tài khoản diễn đàn.";
 
 // Help Section 2
-$l['s2_name'] = "Posting";
-$l['s2_desc'] = "Posting, replying, and basic usage of forum.";
+$l['s2_name'] = "Bài viết";
+$l['s2_desc'] = "Viết bài, trả lời bài viết và những chức năng cơ bản của diễn đàn.";
 ?>

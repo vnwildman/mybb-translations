@@ -1,37 +1,37 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
+ * MyBB 1.6 Vietnamese Language Pack
+ * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
  * 
- * $Id: stats.lang.php 5380 2011-02-21 12:04:43Z Tomm $
+ * $Id: stats.lang.php 2012-02-26 16:00:00Z Community MyBB Vietnam $
  */
 
-$l['nav_stats'] = "Thống kê";
+$l['nav_stats'] = "Bảng trạng thái";
 
-$l['board_stats'] = "Thống kê";
-$l['none'] = "Không";
-$l['nobody'] = "Không ai";
-$l['totals'] = "Tổng cộng";
+$l['board_stats'] = "Bảng trạng thái";
+$l['none'] = "None";
+$l['nobody'] = "Không có ai";
+$l['totals'] = "Tổng số";
 $l['averages'] = "Trung bình";
 $l['posts'] = "Số bài viết:";
-$l['threads'] = "Số tuyến:";
-$l['members'] = "Thành viên:";
-$l['ppd'] = "Posts per day:";
-$l['tpd'] = "Threads per day:";
-$l['mpd'] = "Members per day:";
-$l['ppm'] = "Posts per member:";
-$l['rpt'] = "Replies per thread:";
+$l['threads'] = "Số chủ đề:";
+$l['members'] = "Số thành viên:";
+$l['ppd'] = "Số bài viết trên một ngày:";
+$l['tpd'] = "Số chủ đề trên một ngày:";
+$l['mpd'] = "Số thành viên trên một ngày:";
+$l['ppm'] = "Số bài viết trên số thành viên:";
+$l['rpt'] = "Số trả lời trên số chủ đề:";
 $l['no_posts'] = "Không";
-$l['general'] = "Chung";
+$l['general'] = "Hiển thị";
 $l['newest_member'] = "Thành viên mới nhất:";
-$l['members_posted'] = "Thành viên có viết bài:";
-$l['todays_top_poster'] = "Top trong ngày: <b>{1}</b> (<b>{2}</b> bài viết)";
-$l['popular_forum'] = "Nhiều người quan tâm: <b>{1}</b> (<b>{2}</b> bài viết, <b>{3}</b> tuyến)";
-$l['most_popular'] = "Quan tâm nhất...";
-$l['most_replied_threads'] = "Tuyến có nhiều trả lời";
-$l['most_viewed_threads'] = "Tuyến được xem nhiểu";
-$l['not_enough_info_stats'] = "Rất tiếc, nhưng ở đây không đủ thông tin cho việc tạo thống kê. Trước khi thống kê có thể được tạo ra thì diễn đàn phải có ít nhất một tuyến và một thành viên.";
-$l['replies'] = "lần trả lời";
-$l['views'] = "lần xem";
+$l['members_posted'] = "Những thành viên đã viết bài:";
+$l['todays_top_poster'] = "Thành viên viết bài nhiều nhất hôm nay: <b>{1}</b> (<b>{2}</b> bài viết)";
+$l['popular_forum'] = "Phổ biến nhất diễn đàn: <b>{1}</b> (<b>{2}</b> bài viết, <b>{3}</b> chủ đề)";
+$l['most_popular'] = "Phổ biến nhất...";
+$l['most_replied_threads'] = "Chủ đề được trả lời nhiều nhất";
+$l['most_viewed_threads'] = "Chủ đề được xem nhiều nhất";
+$l['not_enough_info_stats'] = "Xin lỗi nhưng không có thông tin gì trên bảng trạng thái. Để bảng trạng thái được tạo ra thì ít nhất cần có 1 thành viên và 1 chủ đề.";
+$l['replies'] = "trả lời";
+$l['views'] = "xem";
 
 ?>

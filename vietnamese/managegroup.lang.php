@@ -1,43 +1,47 @@
 <?php
 /**
- * MyBB 1.2 English Language Pack
- * Copyright © 2006 MyBB Group, All Rights Reserved
+ * MyBB 1.6 Vietnamese Language Pack
+ * Copyright 2010 MyBB Community Vietnam, All Rights Reserved
  * 
- * $Id: managegroup.lang.php 1398 2006-04-27 07:42:09Z chris $
+ * $Id: managegroup.lang.php 5297 2012-02-24 22:01:14Z MyBB Community Vietnam $
  */
 
-$l['nav_group_management'] = "{1} Quản lý nhóm";
-$l['nav_join_requests'] = "Yêu cầu gia nhập";
-$l['nav_group_memberships'] = "Group Memberships";
+$l['nav_group_management'] = "{1} Nhóm quản lý";
+$l['nav_join_requests'] = "Tham gia yêu cầu";
+$l['nav_group_memberships'] = "Nhóm thành viên";
 
-$l['not_leader_of_this_group'] = "Xin lỗi, bạn không phải là người đứng đầu nhóm này.";
-$l['invalid_group'] = "Nhóm không tồn tại.";
-$l['pending_requests'] ="Đang yêu cầu gia nhập";
-$l['num_requests_pending'] = "Hiện đang có <strong>{1}</strong> yêu cầu gia nhập nhóm này.";
-$l['group_management'] = "Quản lý nhóm";
-$l['members_of'] = "Members in Public Group \"{1}\"";
-$l['user_name'] = "Tên đăng nhập";
+$l['not_leader_of_this_group'] = "Xin lỗi, nhưng bạn không phải là leader của nhóm user này.";
+$l['invalid_group'] = "Nhóm user không tồn tại.";
+$l['pending_requests'] = "Đang chờ giải quyết yêu cầu tham gia";
+$l['num_requests_pending'] = "Hiện tại đang có <strong>{1}</strong> các yêu cầu tham gia nhóm đang chờ giải quyết  cho người dùng này.";
+$l['group_management'] = "Nhóm quản lý";
+$l['members_of'] = "Thành viên trong \"{1}\"";
+$l['user_name'] = "Tài khoản";
 $l['contact'] = "Liên hệ";
-$l['reg_date'] = "Đăng kí";
+$l['reg_date'] = "Đăng ký";
 $l['post_count'] = "Bài viết";
-$l['remove_selected'] = "xoá người được chọn khỏi nhóm";
+$l['remove_selected'] = "Hủy bỏ người dùng được chọn từ các nhóm";
 $l['add_member'] = "Thêm thành viên vào \"{1}\"";
 $l['add_member_submit'] = "Thêm thành viên vào nhóm";
-$l['join_requests'] = "Yêu cầu gia nhập";
-$l['join_requests_title'] = "Yêu cầu gia nhập nhóm \"{1}\"";
-$l['leader'] = "(Đứng đầu)";
-$l['reason'] ="Lý do";
-$l['accept'] = "Đồng ý";
+$l['join_requests'] = "Tham gia yêu cầu";
+$l['join_requests_title'] = "Tham gia yêu cầu cho \"{1}\"";
+$l['leader'] = "(Leader)";
+$l['reason'] = "Lý do";
+$l['accept'] = "Chấp nhận";
 $l['ignore'] = "Bỏ qua";
-$l['decline'] = "Từ chối";
-$l['action_requests'] = "Action Requests";
-$l['join_requests_moderated'] = "The join requests have been moderated.<br />You will now be taken to the request listing.";
-$l['no_requests'] = "There are currently no pending join requests for this group.";
-$l['user_added'] = "Thành viên đã được thêm vào nhóm này.";
-$l['users_removed'] = "Thành viên được chọn đã được xoá khỏi nhóm.";
-$l['group_no_members'] = "Nhóm không có Thành viên nào.<br />Để trở về trang Quản lý nhóm, <a href=\"usercp.php?action=usergroups\">nhấn vào đây</a>.";
-$l['group_public_moderated'] = "Đây là nhóm chung, mọi người đều có thể tham gia.  Các yêu cầu tham gia nhóm phải được Người điều hành giải quyết.";
-$l['group_public_not_moderated'] = "Đây là nhóm chung, mọi người có thể tham gia tự do.";
-$l['group_private'] = "Đây là nhóm cá nhân. Chỉ có những thành viên do người đứng đầu nhóm thêm vào mới có thể tham gia nhóm này.";
-$l['group_default'] = "This usergroup is a core usergroup.";
+$l['decline'] = "Từ Chối";
+$l['action_requests'] = "Thực hiện";
+$l['join_requests_moderated'] = "Yêu cầu tham gia đã được kiểm duyệt.<br />Bạn sẽ được đưa trở lại danh sách yêu cầu.";
+$l['no_requests'] = "Hiện tại không có các yêu cầu tham gia đang chờ giải quyết vao nhóm này.";
+$l['user_added'] = "Những người sử dụng đã được thêm vào nhóm người sử dụng.";
+$l['users_removed'] = "Việc lựa chọn người dùng đã được xoá khỏi nhóm người sử dụng.";
+$l['group_no_members'] = "Hiện tại không có thành viên trong nhóm này. .<br />Để trở về trang quản lý nhóm, bấm vào <a href=\"usercp.php?action=usergroups\">đây</a>.";
+$l['group_public_moderated'] = "Nhóm này là một nhóm công cộng , bất cứ ai đều có thể tham gia. Tất cả các yêu cầu tham gia phải được xét duyệt bởi người lãnh đạo.";
+$l['group_public_not_moderated'] = "Nhóm này là một nhóm công cộng , bất cứ ai đều có thể tham gia tự do không cần xét duyệt.";
+$l['group_private'] = "Nhóm này là một nhóm riêng tư. Chỉ có người lãnh đạo mới có thể thêm thành viên vào nhóm này.";
+$l['group_default'] = "Nhóm này là một nhóm nòng cốt.";
+$l['group_leaders'] = "Nhóm Leaders";
+$l['no_users_selected'] = "Xin lỗi, không có user được lựa chọn để loại bỏ. <br /> Xin vui lòng quay trở lại và chọn người dùng mà bạn muốn loại bỏ khỏi nhóm này.";
+
+$l['error_alreadyingroup'] = "Người sử dụng chỉ định đã là một phần của nhóm user.";
 ?>

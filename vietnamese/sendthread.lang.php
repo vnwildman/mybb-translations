@@ -1,21 +1,18 @@
 <?php
 /**
- * MyBB 1.2 English Language Pack
- * Copyright © 2006 MyBB Group, All Rights Reserved
+ * MyBB 1.6 English Language Pack
+ * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
  * 
- * $Id: sendthread.lang.php 1398 2006-04-27 07:42:09Z chris $
+ * $Id: sendthread.lang.php 5297 2012-02-27 22:01:14Z Community MyBB Vietnam $
  */
 
-$l['nav_sendthread'] = "Gửi bài viết tới Bạn của bạn";
+$l['nav_sendthread'] = "Gửi chủ đề tới bạn bè";
 
-$l['send_thread'] = "Gửi tới bạn";
+$l['send_thread'] = "Gửi tới bạn bè";
 $l['recipient'] = "Người nhận:";
-$l['recipient_note'] = "Nhập địa chỉ email bạn của bạn vào đây.";
+$l['recipient_note'] = "Nhập vào địa chỉ Email của bạn bè.";
 $l['subject'] = "Tiêu đề:";
 $l['message'] = "Nội dung:";
-$l['your_name'] = "Tên bạn:";
-$l['name_note'] = "Bạn phải nhập tên để người nhận biết bạn là ai.";
-$l['your_email'] = "Địa chỉ email của bạn:";
-$l['email_note'] = "Bạn phải nhập địa chỉ email hợp lệ để người nhận có thể hồi âm.";
-
+$l['error_nosubject'] = "Vui lòng nhập vào Tiêu đề";
+$l['error_nomessage'] = "Vui lòng nhập vào Nội dung thư";
 ?>

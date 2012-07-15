@@ -1,42 +1,52 @@
 <?php
-$l['nav_portal'] = "Trang Portal";
-$l['posted_by'] = "Viết bài:";
-$l['replies'] = "Trả lời";
-$l['no_replies'] = "Không bài trả lời";
+/**
+ * MyBB 1.6 English Language Pack
+ * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
+ * 
+ * $Id: portal.lang.php 5297 2012-02-27 22:01:14Z Community MyBB Vietnam $
+ */
+
+$l['nav_portal'] = "Trang chủ";
+$l['posted_by'] = "Viết bởi:";
+$l['replies'] = "Bài trả lời";
+$l['no_replies'] = "Không có hồi đáp";
 $l['latest_threads'] = "Chủ đề mới nhất";
-$l['latest_threads_replies'] = "Trả lời:";
-$l['latest_threads_views'] = "Xem:";
-$l['latest_threads_lastpost'] = "Trả lời mới nhất:";
-$l['private_messages'] = "Tin nhắn riêng";
-$l['pms_received_new'] = "{1}, bạn đã nhận được <b>{2}</b> tin nhắn mới.";
-$l['pms_unread'] = "Tin chưa đọc";
-$l['pms_total'] = "Tổng số tin";
-$l['search_forums'] = "Tìm kiếm";
-$l['advanced_search'] = "Tìm kiếm mở rộng";
-$l['forum_stats'] = "Thống kê diễn đàn";
+$l['latest_threads_replies'] = "Bài trả lời:";
+$l['latest_threads_views'] = "Lượt xem:";
+$l['latest_threads_lastpost'] = "Người gửi cuối:";
+$l['private_messages'] = "Tin nhắn";
+$l['pms_received_new'] = "{1}, bạn có <b>{2}</b>tin nhắn chưa đọc.";
+$l['pms_unread'] = "Tin nhắn chưa đọc";
+$l['pms_total'] = "Tổng số tin nhắn";
+$l['search_forums'] = "Tìm kiếm Diễn đàn";
+$l['advanced_search'] = "Tìm kiếm nâng cao";
+$l['forum_stats'] = "Thống kê Diễn đàn";
 $l['num_members'] = "Thành viên:";
-$l['latest_member'] = "Thành viên mới:";
-$l['num_threads'] = "Chủ đề:";
-$l['num_posts'] = "Bài viết:";
+$l['latest_member'] = "Thành viên mới nhất:";
+$l['num_threads'] = "Số chủ đề:";
+$l['num_posts'] = "Số bài viết:";
 $l['full_stats'] = "Thống kê đầy đủ";
 $l['welcome'] = "Chào mừng, {1}";
 $l['guest'] = "Khách";
-$l['guest_welcome_registration'] = "Bạn phải <a href=\"{1}\">đăng ký</a> trước khi viết bài trong diễn đàn.";
-$l['username'] = "Tài khoản";
-$l['password'] = "Password";
+$l['guest_welcome_registration'] = "Bạn cần phải <a href=\"{1}\">đăng ký</a> trước khi bạn có thể đăng trên trang web của chúng tôi.";
+$l['username'] = "Tên đăng nhập";
+$l['password'] = "Mật khẩu";
 $l['login'] = "Đăng nhập!";
-$l['member_welcome_lastvisit'] = "Lần tới sau cùng:";
-$l['since_then'] = "Từ lúc đó đã có:";
+$l['member_welcome_lastvisit'] = "Lần cuối truy cập:";
+$l['since_then'] = "Kể từ đó, đã có:";
 $l['new_announcements'] = "{1} thông báo mới";
 $l['new_announcement'] = "1 thông báo mới";
 $l['new_threads'] = "{1} chủ đề mới";
 $l['new_thread'] = "1 chủ đề mới";
-$l['new_posts'] = "{1} bài trả lời mới";
-$l['new_post'] = "1 bài trả lời mới";
-$l['view_new'] = "Xem bài viết mới";
-$l['view_todays'] = "Xem bài viết gửi hôm nay";
-$l['online'] = "Thành viên Online";
-$l['online_users'] = "Lúc này đang có <b>{1}</b> thành viên online.";
-$l['online_counts'] = "<b>{1}</b> thành viên diễn đàn(s) | <b>{2}</b> khách(s)";
-$l['no_one'] = "Không ai";
+$l['new_posts'] = "{1} bài viết mới";
+$l['new_post'] = "1 bài viết mới";
+$l['view_new'] = "Xem bài mới";
+$l['view_todays'] = "Xem Bài viết của hôm nay";
+$l['online'] = "Thành viên online";
+$l['online_user'] = "Có 1 người đang trực tuyến"; 
+$l['online_users'] = "Hiện đang có <b>{1}</b> người dùng trực tuyến.";
+$l['online_counts'] = "<b>{1}</b> Thành viên | <b>{2}</b> Khách";
+$l['no_one'] = "không ai";
+$l['print_this_item'] = "In mục này";
+$l['send_to_friend'] = "Gửi tin này cho bạn bè";
 ?>
