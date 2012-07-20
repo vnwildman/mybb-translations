@@ -1,15 +1,15 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2010 MyBB Community Vietnam, All Rights Reserved
- * 
- * $Id: index.lang.php 5297 2012-02-24 22:01:14Z MyBB Community Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: index.lang.php 5297 2010-12-28 22:01:14Z Tomm $
  */
 
 $l['boardstats'] = "Thông tin diễn đàn";
-$l['new_posts'] = "Có bài mới";
-$l['no_new_posts'] = "Không có bài mới";
-$l['forum_locked'] = "Đã khóa";
+$l['new_posts'] = "Diễn đàn có bài mới";
+$l['no_new_posts'] = "Diễn đàn không có bài mới";
+$l['forum_locked'] = "Diễn đàn bị khóa";
 $l['forum_unapproved_posts_count'] = "Hiện tại có {1} bài viết không được chấp nhận trong diễn đàn này.";
 $l['forum_unapproved_post_count'] = "Hiện tại có 1 bài viết không được chấp nhận trong diễn đàn này.";
 $l['forum_unapproved_threads_count'] = "Hiện tại có {1} chủ đề không được chấp nhận trong diễn đàn này.";

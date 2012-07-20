@@ -1,23 +1,23 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2010 MyBB Community Vietnam, All Rights Reserved
- * 
- * $Id: global.lang.php 5297 2012-02-24 22:01:14Z MyBB Community Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: global.lang.php 5738 2011-12-30 14:26:42Z ralgith $
  */
 
 $l['redirect_width'] = "50%";
-$l['lastvisit_never'] = "Không có";
+$l['lastvisit_never'] = "Chưa bao giờ";
 
 $l['toplinks_memberlist'] = "Thành viên";
 $l['toplinks_search'] = "Tìm kiếm";
 $l['toplinks_calendar'] = "Lịch";
 $l['toplinks_help'] = "Giúp đỡ";
-$l['toplinks_portal'] = "Portal";
-$l['bottomlinks_contactus'] = "Liên hệ";
+$l['toplinks_portal'] = "Cổng thông tin";
+$l['bottomlinks_contactus'] = "Liên hệ";
 $l['bottomlinks_returntop'] = "Trở về đầu trang";
-$l['bottomlinks_returncontent'] = "Trở lên trên";
-$l['bottomlinks_syndication'] = "RSS";
+$l['bottomlinks_returncontent'] = "Trở về nội dung";
+$l['bottomlinks_syndication'] = "Đồng bộ hóa RSS";
 $l['bottomlinks_litemode'] = "Bản rút gọn";
 
 $l['welcome_usercp'] = "User CP";
@@ -50,24 +50,28 @@ $l['forumbit_moderated_by'] = "Quản lý bởi:";
 $l['new_posts'] = "Có bài mới";
 $l['no_new_posts'] = "Không có bài mới";
 $l['click_mark_read'] = "Đánh dấu đã đọc";
-$l['forum_locked'] = "Đã khóa";
-$l['lastpost_never'] = "Chưa có bài mới";
+$l['forum_locked'] = "Diễn đàn bị khóa";
+$l['lastpost_never'] = "Chưa từng bao giờ";
 $l['viewing_one'] = " (1 thành viên đang xem)";
 $l['viewing_multiple'] = " ({1} thành viên đang xem)";
 $l['by'] = "bởi";
-$l['more_subforums'] = "và {1} subforum khác.";
+$l['more_subforums'] = "và {1} diễn đàn con khác.";
 
-$l['password_required'] = "Yêu cầu mật mã";
-$l['forum_password_note'] = "Ban quản trị yêu cầu bạn biết mật mã để đăng nhập forum này.";
+$l['password_required'] = "Yêu cầu mật khẩu";
+$l['forum_password_note'] = "Ban quản trị yêu cầu bạn biết mật khẩu để có thể đăng nhập forum này.";
 $l['enter_password_below'] = "Xin điền mật khẩu vào ô bên dưới:";
 $l['verify_forum_password'] = "Xác nhận mật khẩu";
 $l['wrong_forum_password'] = "Mật khẩu bạn nhập không đúng, xin thử lại lần nữa.";
 
 $l['reset_button'] = "Làm lại";
 $l['username'] = "Tài khoản:";
-$l['password'] = "Mật mã:";
+$l['username1'] = "Thư điện tử:";
+$l['username2'] = "Tài khoản/Thư điện tử:";
+$l['password'] = "Mật khẩu:";
 $l['login_username'] = "Tài khoản";
-$l['login_password'] = "Mật mã";
+$l['login_username1'] = "Thư điện tử:";
+$l['login_username2'] = "Tài khoản/Thư điện tử";
+$l['login_password'] = "Mật khẩu";
 $l['lost_password'] = "Quên mật khẩu?";
 $l['remember_me'] = "Nhớ";
 $l['remember_me_desc'] = "Nếu bạn đánh dấu vào ô này thì bạn sẽ được lưu thông tin cho lần ghé thăm sau, nếu không thì tài khoản của bạn sẽ tự động thoát khi bạn đóng trình duyệt.";
@@ -85,7 +89,7 @@ $l['month_10'] = "Tháng 10";
 $l['month_11'] = "Tháng 11";
 $l['month_12'] = "Tháng 12";
 
-$l['sunday'] = "Chúa Nhật";
+$l['sunday'] = "Chủ Nhật";
 $l['monday'] = "Thứ Hai";
 $l['tuesday'] = "Thứ Ba";
 $l['wednesday'] = "Thứ Tư";
@@ -106,22 +110,22 @@ $l['no'] = "Không";
 $l['and'] = "và";
 
 $l['attachments'] = "Đính kèm";
-$l['attachments_desc'] = "Bạn có thể tải lên một hoặc nhiều tệp đính kèm cho bài viết. Xin hãy chọn tệp đính kèm ở bên phải và bấm vào 'Add Attachment' để tải lên.";
-$l['remove_attachment'] = "Xóa";
-$l['approve_attachment'] = "Duyệt";
-$l['unapprove_attachment'] = "Không duyệt";
-$l['insert_attachment_post'] = "Thêm vào bài viết";
-$l['new_attachment'] = "tệp đính kèm mới:";
-$l['add_attachment'] = "Thêm đính kèm";
+$l['attachments_desc'] = "Ngoài ra, bạn có thể đính kèm một hay nhiều tệp tin kèm theo bài viết này. Vui lòng chọn tệp tin ở bên phải và nhấn 'Thêm đính kèm' để tải nó lên.";
+$l['remove_attachment'] = "Bỏ";
+$l['approve_attachment'] = "Xác nhận";
+$l['unapprove_attachment'] = "Bác bỏ";
+$l['insert_attachment_post'] = "Chèn vào bài viết";
+$l['new_attachment'] = "Đính kèm mới:";
+$l['add_attachment'] = "Thêm Đính kèm";
 $l['update_attachment'] = "Cập nhật";
 $l['post_preview'] = "Xem trước";
 $l['change_user'] = "thay tài khoản";
 $l['post_icon'] = "Biểu tượng:";
 $l['no_post_icon'] = "không dùng";
-$l['thread_subscription_method'] = "<strong>Theo dõi chủ đề:</strong><br /><span class=\"smalltext\">Xác định phương thức thông báo email và theo dõi chủ đề mà bạn muốn cho bài viết này. (Chỉ dành cho thành viên)</span>";
+$l['thread_subscription_method'] = "<strong>Theo dõi chủ đề:</strong><br /><span class=\"smalltext\">Xác định phương thức thông báo thư điện tử và theo dõi chủ đề mà bạn muốn cho bài viết này. (Chỉ dành cho thành viên)</span>";
 $l['no_subscribe'] = "Không theo dõi chủ đề này";
-$l['no_email_subscribe'] = "Theo dõi nhưng không nhận thông báo bài viết mới qua email";
-$l['instant_email_subscribe'] = "Theo dõi và nhận thông báo bài viết mới qua email";
+$l['no_email_subscribe'] = "Theo dõi nhưng không nhận thông báo bài viết mới qua thư điện tử";
+$l['instant_email_subscribe'] = "Theo dõi và nhận thông báo bài viết mới qua thư điện tử";
 
 $l['today'] = "Hôm nay";
 $l['yesterday'] = "Hôm qua";
@@ -141,12 +145,12 @@ $l['editor_title_underline'] = "Chèn chữ gạch dưới";
 $l['editor_title_left'] = "Canh lề trái";
 $l['editor_title_center'] = "Canh giữa";
 $l['editor_title_right'] = "Canh lề phải";
-$l['editor_title_justify'] = "Canh đều";
+$l['editor_title_justify'] = "Giãn đều";
 $l['editor_title_numlist'] = "Chèn danh sách số";
 $l['editor_title_bulletlist'] = "Chèn danh sách chấm";
 $l['editor_title_image'] = "Chèn hình";
 $l['editor_title_hyperlink'] = "Chèn liên kết";
-$l['editor_title_email'] = "Chèn địa chỉ email";
+$l['editor_title_email'] = "Chèn địa chỉ thư điện tử";
 $l['editor_title_quote'] = "Chèn trích dẫn";
 $l['editor_title_code'] = "Chèn code";
 $l['editor_title_php'] = "Chèn PHP code";
@@ -155,7 +159,7 @@ $l['editor_enter_list_item'] = "Nhập vào danh sách cần nhập. Bấm cance
 $l['editor_enter_url'] = "Xin nhập vào địa chỉ website.";
 $l['editor_enter_url_title'] = "Bạn cũng có thể nhập vào tiêu đề cho website.";
 $l['editor_enter_email'] = "Xin nhập vào địa chỉ mail bạn muốn chèn.";
-$l['editor_enter_email_title'] = "Bạn cũng có thể nhập vào tiêu đề cho địa chỉ email.";
+$l['editor_enter_email_title'] = "Bạn cũng có thể nhập vào tiêu đề cho địa chỉ thư điện tử.";
 $l['editor_enter_image'] = "Xin nhập vào địa chỉ hình ảnh.";
 $l['editor_enter_video_url'] = "Xin nhập vào địa chỉ của video.";
 $l['editor_video_dailymotion'] = "Dailymotion";
@@ -185,8 +189,8 @@ $l['linkback'] = "Original Post";
 $l['at'] = "tại";
 $l['na'] = "N/A";
 $l['guest'] = "Khách";
-$l['unknown'] = "Không viết";
-$l['never'] = "Never";
+$l['unknown'] = "Không biết";
+$l['never'] = "Không bao giờ";
 $l['postbit_posts'] = "Bài viết:";
 $l['postbit_group'] = "Nhóm:";
 $l['postbit_joined'] = "Tham gia:";
@@ -200,14 +204,15 @@ $l['postbit_unapproved_attachments'] = "{1} tệp đính kèm không duyệt.";
 $l['postbit_unapproved_attachment'] = "1 tệp đính kèm không duyệt.";
 $l['postbit_status_online'] = "Online";
 $l['postbit_status_offline'] = "Offline";
-$l['postbit_status_away'] = "Away";
-$l['postbit_edited'] = "Bài viết đã được chỉnh sửa: {1} {2} bởi";
+$l['postbit_status_away'] = "Vắng mặt";
+$l['postbit_edited'] = "Bài viết được chỉnh sửa cuối cùng vào: {1} {2} bởi";
 $l['postbit_ipaddress'] = "Địa chỉ IP:";
 $l['postbit_ipaddress_logged'] = "Đã lưu";
 $l['postbit_post'] = "Bài viết:";
 $l['postbit_reputation'] = "Danh tiếng:";
+$l['postbit_reputation_add'] = "Đánh giá tốt về người dùng này";
 $l['postbit_website'] = "Tham quan website của thành viên này";
-$l['postbit_email'] = "Gửi email cho thành viên này";
+$l['postbit_email'] = "Gửi thư điện tử cho thành viên này";
 $l['postbit_find'] = "Tìm tất cả bài viết của thành viên này";
 $l['postbit_report'] = "Báo cáo bài viết này cho ban quản trị";
 $l['postbit_quote'] = "Trích dẫn bài viết này trong bài trả lời";
@@ -220,8 +225,8 @@ $l['postbit_quick_edit'] = "Sửa nhanh";
 $l['postbit_full_edit'] = "Sửa đầy đủ";
 $l['postbit_show_ignored_post'] = "Hiển thị bài viết này";
 $l['postbit_currently_ignoring_user'] = "Nội dung của tin nhắn này đã được ẩn bởi vì {1} đang nằm trong <a href=\"usercp.php?action=editlists\">danh sách từ chối</a> của bạn.";
-$l['postbit_warning_level'] = "Cảnh cáo:";
-$l['postbit_warn'] = "Cảnh cáo tác giả vì bài viết náy";
+$l['postbit_warning_level'] = "Mức cảnh cáo:";
+$l['postbit_warn'] = "Cảnh cáo tác giả vì bài viết này";
 
 $l['forumjump'] = "Di chuyển nhanh:";
 $l['forumjump_select'] = "Xin hãy chọn:";
@@ -253,7 +258,7 @@ $l['months'] = "Tháng";
 $l['months_short'] = "m";
 $l['week'] = "Tuần";
 $l['week_short'] = "w";
-$l['weeks'] = "tuần";
+$l['weeks'] = "Tuần";
 $l['weeks_short'] = "w";
 $l['day'] = "Ngày";
 $l['day_short'] = "d";
@@ -272,16 +277,16 @@ $l['second_short'] ="s";
 $l['seconds'] = "Giây";
 $l['seconds_short'] = "s";
 $l['permanent'] = "Lâu dài";
-$l['save_draft'] = "Làm nháp";
+$l['save_draft'] = "Làm bản nháp";
 $l['go'] = "Go";
 $l['bbclosed_warning'] = "Diễn đàn của bạn hiện đang trong tình trạng đóng.";
-$l['banned_warning'] = "Tình trạng của bạn hiện đang tronh tình trạng cấm.";
+$l['banned_warning'] = "Tài khoản hiện tại của bạn hiện đang bị cấm.";
 $l['banned_warning2'] = "Lý do cấm";
 $l['banned_warning3'] = "Lệnh cấm sẽ được gỡ bỏ";
 $l['banned_lifted_never'] = "Không giới hạn";
-$l['banned_email_warning'] = "Bạn hiện đang sử dụng một email mà không được phép để được sử dụng trên diễn đàn này. Xin vui lòng thiết lập lại nó trước khi tiếp tục.";
+$l['banned_email_warning'] = "Bạn hiện đang sử dụng một thư điện tử mà không được phép để được sử dụng trên diễn đàn này. Xin vui lòng thiết lập lại nó trước khi tiếp tục.";
 $l['powered_by'] = "Mã nguồn bởi";
-$l['copyright'] = "Copyright";
+$l['copyright'] = "Bản quyền";
 $l['attach_quota'] = "Hiện tại bạn đã sử dụng <strong>{1}</strong> trong số lượng giới hạn tệp đính kèm của bạn ({2})";
 $l['view_attachments'] = "[Xem tệp đính kèm của tôi]";
 $l['unlimited'] = "Không giới hạn";
@@ -304,7 +309,7 @@ $l['size_bytes'] = "bytes";
 $l['slaps'] = "slaps";
 $l['with_trout'] = "around a bit with a large trout.";
 
-$l['mybb_engine'] = "MyBB Engine";
+$l['mybb_engine'] = "Bộ máy MyBB";
 $l['quickdelete_confirm'] = "Bạn có chắc là bạn muốn xóa bài viết này?";
 $l['newpm_notice_one'] = "<strong>Bạn có một tin nhắn chưa đọc</strong> từ {1} với tiêu đề <a href=\"private.php?action=read&amp;pmid={2}\" style=\"font-weight: bold;\">{3}</a>";
 $l['newpm_notice_multiple'] = "<strong>Bạn có {1} tin nhắn chưa đọc.</strong> Tin nhắn gần đây nhất là từ {2} với tiêu đề <a href=\"private.php?action=read&amp;pmid={3}\" style=\"font-weight: bold;\">{4}</a>";
@@ -316,16 +321,16 @@ $l['latest_threads'] = "Chủ đề cuối";
 $l['folder_inbox'] = "Hộp thư";
 $l['folder_sent_items'] = "Đã gửi";
 $l['folder_drafts'] = "Nháp";
-$l['folder_trash'] = "Thung rác";
-$l['folder_untitled'] = "Thư mục chư đặt tên";
+$l['folder_trash'] = "Thùng rác";
+$l['folder_untitled'] = "Thư mục chưa đặt tên";
 
-$l['standard_mod_tools'] = "Công cụ cu bản";
+$l['standard_mod_tools'] = "Công cụ cơ bản";
 $l['custom_mod_tools'] = "Công cụ tùy chỉnh";
 
 $l['error_loadlimit'] = "Đã đạt đến đỉnh điểm giới hạn tải của server.  Xin hãy trở lại sau khi server nhẹ bớt.";
 $l['error_boardclosed'] = "Diễn đàn này hiện tại đã đóng. Ban quản trị đã nêu rõ lý do dưới đây.";
 $l['error_banned'] = "Xin lỗi, bạn đã bị cấm.  Bạn không thể viết bài, đọc bài, hoặc truy nhập diễn đàn.  Xin hãy liên lạc với ban quản trị nếu bạn có thắc mắc.";
-$l['error_cannot_upload_php_post'] = "Không thể tải tệp lên - Quá lớn cho chỉ thị php post_max_size directive. Xin hãy bấm vào nút trở lại.";
+$l['error_cannot_upload_php_post'] = "Không thể tải tệp lên - Quá lớn cho chỉ thị php post_max_size. Xin hãy bấm vào nút trở lại.";
 $l['error_database_repair'] = "MyBB đang tự động sửa chữa các table bị hư hại.";
 
 $l['unknown_user_trigger'] = "Có một lỗi không xác định đã được gây ra.";
@@ -334,12 +339,12 @@ $l['warnings'] = "Xuất hiện những cảnh báo sau đây:";
 $l['ajax_loading'] = "Đang tải. <br />Xin chờ trong giây lát..";
 $l['saving_changes'] = "Lưu thay đổi..";
 $l['refresh'] = "Làm mới";
-$l['select_language'] = "Đổi ngôn ngữ nhanh";
+$l['select_language'] = "Thay đổi nhanh ngôn ngữ";
 
 $l['invalid_post_code'] = "Mã ủy quyền không trùng khớp. Bạn có đang truy cập chính xác vào chức năng này hay không? Xin hãy quay lại và thử lại.";
 $l['invalid_captcha'] = "Xin vui lòng điền mã xác nhận hình ảnh để tiếp tục. Xin vui lòng nhập mã chính xác như nó xuất hiện trong hình ảnh.";
 $l['invalid_captcha_verify'] = "Mã xác nhận hình ảnh mà bạn đã nhập không chính xác. Xin vui lòng nhập mã chính xác như nó xuất hiện trong hình ảnh.";
-$l['invalid_captcha_transmit'] = "Một lỗi xảy ra với xác minh hình ảnh.Vui lòng thử lại.";
+$l['invalid_captcha_transmit'] = "Một lỗi xảy ra với xác minh hình ảnh. Vui lòng thử lại.";
 
 $l['timezone_gmt_minus_1200'] = "(GMT -12:00) Enitwetok, Kwajalien";
 $l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midway Island, Samoa";
@@ -378,7 +383,7 @@ $l['missing_task'] = "Lỗi: Tập tin nhiệm vụ không tồn tại";
 $l['task_backup_cannot_write_backup'] = "Lỗi: Nhiệm vụ sao lưu cơ sở dữ liệu không thể ghi vào thư mục sao lưu.";
 $l['task_backup_ran'] = "Nhiệm vụ sao lưu cơ sở dữ liệu đã chạy thành công.";
 $l['task_checktables_ran'] = "Nhiệm vụ kiểm tra table đã chạy thành công và không tim thấy table nào bị hư hại.";
-$l['task_checktables_ran_found'] = "Notice: The check tables task successfully ran and repaired the {1} table(s).";
+$l['task_checktables_ran_found'] = "Chú ý: Nhiệm vụ kiểm tra bảng đã thực hiện thành công và đã sửa chữa {1} bảng.";
 $l['task_dailycleanup_ran'] = "Nhiệm vụ dọn dẹp hằng ngày đã chạy thành công.";
 $l['task_hourlycleanup_ran'] = "Nhiệm vụ dọn dẹp mỗi giờ đã chạy thành công.";
 $l['task_logcleanup_ran'] = "Nhiệm vụ dọn dẹp log đã chạy thành công, và đã xóa các log cũ.";
@@ -397,8 +402,8 @@ $l['next'] = "Tiếp";
 $l['previous'] = "Trước";
 $l['delete'] = "Xóa";
 
-$l['massmail_username'] = "Tài khoảng";
-$l['email_addr'] = "Địa chỉ email";
+$l['massmail_username'] = "Tài khoản";
+$l['email_addr'] = "Địa chỉ thư điện tử";
 $l['board_name'] = "Tên diễn đàn";
 $l['board_url'] = "Địa chỉ diễn đàn";
 

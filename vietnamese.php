@@ -1,8 +1,8 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2010 MyBB Group, All Rights Reserved
- * 
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
  * $Id: english.php 5828 2012-05-08 16:06:16Z Tomm $
  */
 
