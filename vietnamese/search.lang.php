@@ -1,9 +1,9 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
- *
- * $Id: search.lang.php 5297 2012-02-27 22:01:14Z Community MyBB Vietnam $
+ * MyBB 1.6 Vietnamese Language Pack
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: search.lang.php 5828 2012-05-08 16:06:16Z Tomm $
  */
 
 $l['nav_search'] = "Tìm";
@@ -22,20 +22,20 @@ $l['search_options'] = "Tùy chọn tìm kiếm";
 $l['threads_at_least'] = "Tìm chủ đề ít nhất";
 $l['threads_at_most'] = "Tìm chủ đề nhiều nhất";
 $l['find_anydate'] = "Bất kỳ lúc nào";
-$l['find_yesterday'] = "Hôm qua";
-$l['find_lastweek'] = "Tuần rồi";
+$l['find_yesterday'] = "Tính từ hôm qua";
+$l['find_lastweek'] = "Tính từ tuần trước";
 $l['find_2weeks'] = "Hai tuần trước";
-$l['find_month'] = "Tháng trước";
-$l['find_3months'] = "Ba tháng trước";
-$l['find_6months'] = "Sáu tháng trước";
-$l['find_year'] = "Năm ngoái";
-$l['and_newer'] = "và mới nhất";
-$l['and_older'] = "và cũ nhất";
-$l['sorting_options'] = "Cách sắp đặt";
+$l['find_month'] = "Từ tháng trước";
+$l['find_3months'] = "Từ ba tháng trước";
+$l['find_6months'] = "Từ sáu tháng trước";
+$l['find_year'] = "Từ năm ngoái";
+$l['and_newer'] = "và mới hơn";
+$l['and_older'] = "và cũ hơn";
+$l['sorting_options'] = "Cách sắp xếp";
 $l['sort_lastpost'] = "Bài mới nhất";
 $l['sort_author'] = "Tên người gửi";
 $l['sort_forum'] = "Chuyên mục";
-$l['sort_in'] = "thứ tự";
+$l['sort_in'] = "theo thứ tự";
 $l['sort_asc'] = "tăng dần";
 $l['sort_desc'] = "giảm dần";
 $l['sort_order'] = "và";
@@ -46,16 +46,16 @@ $l['show_results_as'] = "Hiện kết quả theo";
 $l['show_results_threads'] = "chủ đề";
 $l['show_results_posts'] = "bài viết";
 $l['search_results'] = "Kết quả tìm kiếm";
-$l['post'] = "Post";
+$l['post'] = "Gửi";
 $l['author'] = "Người gửi";
 $l['forum'] = "Chuyên mục";
 $l['replies'] = "Trả lời";
 $l['views'] = "Xem";
-$l['posted'] = "Posted";
+$l['posted'] = "Đã gửi";
 $l['thread'] = "Chủ đề";
-$l['lastpost'] = "Bài mới";
+$l['lastpost'] = "Bài cuối";
 $l['post_thread'] = "Chủ đề:";
-$l['post_subject'] = "Post:";
+$l['post_subject'] = "Gửi:";
 $l['replies2'] = "trả lời";
 $l['selectall'] = "Chọn tất cả kết quả phụ?";
 $l['any_prefix'] = "Tìm chủ đề với bất cứ tiền tố nào";
@@ -72,7 +72,7 @@ $l['unapprove_threads'] = "Không cho phép chủ đề";
 $l['inline_delete_posts'] = "Xóa bài viết";
 $l['inline_merge_posts'] = "Gộp bài viết";
 $l['inline_split_posts'] = "Tách bài viết";
-$l['inline_approve_posts'] = "Cho phép bài viết";
+$l['inline_approve_posts'] = "Chấp thuận bài viết";
 $l['inline_unapprove_posts'] = "Không cho phép bài viết";
 $l['inline_post_moderation'] = "Inline Post Moderation:";
 $l['inline_go'] = "Làm";
@@ -86,12 +86,12 @@ $l['attachment_count'] = "Chủ đề này có 1 đính kèm.";
 $l['attachment_count_multiple'] = "Chủ đề này có {1} đính kèm.";
 $l['goto_first_unread'] = "Đến bài viết chưa đọc đầu tiên";
 $l['page_selected'] = "Tất cả <strong>{1}</strong> kết quả trên trang này đã được chọn.";
-$l['all_selected'] = "All <strong>{1}</strong> results in this search are selected.";
-$l['select_all'] = "Chọn tất cả <strong>{1}</strong> kết quả trong danh sách kết quả này.";
+$l['all_selected'] = "Tất cả <strong>{1}</strong> kết quả trên tìm kiếm này đã được chọn.";
+$l['select_all'] = "Chọn tất cả <strong>{1}</strong> kết quả trong lần tìm kiếm này.";
 $l['clear_selection'] = "Xóa chọn lựa.";
 
 $l['results'] = "kết quả";
-$l['mod_options'] = "Moderator Options";
+$l['mod_options'] = "Tùy chọn cho Moderator";
 $l['find_all'] = "Tìm tất cả";
 $l['find_only_approved'] = "Chỉ tìm bài đã được chấp nhận";
 $l['find_only_unapproved'] = "Chỉ tìm bài không được chấp nhận";

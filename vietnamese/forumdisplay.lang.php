@@ -1,9 +1,9 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2010 MyBB Community Vietnam, All Rights Reserved
- * 
- * $Id: editforumdisplay.lang.php 5297 2012-02-24 22:01:14Z MyBB Community Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: forumdisplay.lang.php 5297 2010-12-28 22:01:14Z Tomm $
  */
 
 $l['post_thread'] = "Tạo chủ đề";
@@ -20,24 +20,24 @@ $l['markforum_read'] = "Đánh dấu chuyên mục đã xem";
 $l['subscribe_forum'] = "Đặt theo dõi chuyên mục";
 $l['unsubscribe_forum'] = "Bỏ theo dõi chuyên mục";
 $l['clear_stored_password'] = "Xoá mật khẩu lưu trữ";
-$l['sort_by_subject'] = "Phân loại theo: Tiêu đề";
-$l['sort_by_lastpost'] = "Phân loại theo: Bài mới";
-$l['sort_by_starter'] = "Phân loại theo: Tác giả";
-$l['sort_by_started'] = "Sort by: Thời gian tạo";
-$l['sort_by_rating'] = "Phân loại theo: Rating";
-$l['sort_by_replies'] = "Phân loại theo: Trả lời";
-$l['sort_by_views'] = "Phân loại theo: Lượt xem";
+$l['sort_by_subject'] = "Xếp theo: Tiêu đề";
+$l['sort_by_lastpost'] = "Xếp theo: Bài mới";
+$l['sort_by_starter'] = "Xếp theo: Tác giả";
+$l['sort_by_started'] = "Xếp theo: Thời gian tạo";
+$l['sort_by_rating'] = "Xếp theo: Đánh giá";
+$l['sort_by_replies'] = "Xếp theo: Số trả lời";
+$l['sort_by_views'] = "Xếp theo: Lượt xem";
 $l['sort_order_asc'] = "Thứ tự: Tăng dần";
 $l['sort_order_desc'] = "Thứ tự: Giảm dần";
-$l['datelimit_1day'] = "Thời gian: Hôm nay";
-$l['datelimit_5days'] = "Thời gian: 5 ngày trước";
-$l['datelimit_10days'] = "Thời gian: 10 ngày trước";
-$l['datelimit_20days'] = "Thời gian: 20 ngày trước";
-$l['datelimit_50days'] = "Thời gian: 50 ngày trước";
-$l['datelimit_75days'] = "Thời gian: 75 ngày trước";
-$l['datelimit_100days'] = "Thời gian: 100 ngày trước";
-$l['datelimit_lastyear'] = "Thời gian: Năm ngoái";
-$l['datelimit_beginning'] = "Thời gian: Bắt đầu";
+$l['datelimit_1day'] = "Tính từ: Hôm nay";
+$l['datelimit_5days'] = "Tính từ: 5 ngày trước";
+$l['datelimit_10days'] = "Tính từ: 10 ngày trước";
+$l['datelimit_20days'] = "Tính từ: 20 ngày trước";
+$l['datelimit_50days'] = "Tính từ: 50 ngày trước";
+$l['datelimit_75days'] = "Tính từ: 75 ngày trước";
+$l['datelimit_100days'] = "Tính từ: 100 ngày trước";
+$l['datelimit_lastyear'] = "Tính từ: Năm ngoái";
+$l['datelimit_beginning'] = "Tính từ: Lúc bắt đầu";
 $l['new_thread'] = "Bài viết mới";
 $l['new_hot_thread'] = "Chủ đề nóng (Mới)";
 $l['posts_by_you'] = "Có bài của bạn";
@@ -46,7 +46,7 @@ $l['hot_thread'] = "Chủ đề nóng (Không có bài mới)";
 $l['locked_thread'] = "Chủ đề đã đóng";
 $l['goto_first_unread'] = "Chuyển đến bài viết chưa xem đầu tiên";
 $l['pages'] = "Trang:";
-$l['pages_last'] = "Cuối";
+$l['pages_last'] = "cuối";
 $l['users_browsing_forum'] = "Đang xem chuyên mục:";
 $l['users_browsing_forum_guests'] = "{1} khách";
 $l['users_browsing_forum_invis'] = "{1} ẩn danh";
@@ -65,8 +65,8 @@ $l['clear'] = "Xóa";
 $l['sub_forums_in']  = "Diễn đàn '{1}'";
 $l['forum_rules'] = "{1} - Quy định";
 $l['subforums'] = "<strong>Chuyên mục con:</strong>";
-$l['asc'] = "asc";
-$l['desc'] = "desc";
+$l['asc'] = "tăng";
+$l['desc'] = "giảm";
 $l['forum_announcements'] = "Thông báo diễn đàn";
 $l['sticky_threads'] = "Chủ đề quan trọng";
 $l['normal_threads'] = "Chủ đề bình thường";

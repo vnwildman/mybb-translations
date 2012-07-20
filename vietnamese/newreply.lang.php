@@ -1,9 +1,9 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2012 MyBB Community Vietnam, All Rights Reserved
- * 
- * $Id: newreply.lang.php 2012-02-26 16:00:00Z MyBB Community Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version. 
+ * $Id: newreply.lang.php 5657 2011-11-27 12:32:47Z Tomm $
  */
 
 $l['nav_newreply'] = "Trả lời";
@@ -22,7 +22,8 @@ $l['preview_post'] = "Xem trước";
 $l['mod_options'] ="Tùy chọn quản lý:";
 $l['close_thread'] = "<strong>Đóng chủ đề:</strong> không cho ai có thể gửi trả lời vào chủ đề này.";
 $l['stick_thread'] = "<strong>Đặt chú ý:</strong> đặt chú ý đặc biệt cho chủ đề lên đầu chuyên mục.";
-$l['thread_review'] = "Thread Review (Newest First)";
+$l['forum_rules'] = "{1} - Quy tắc";
+$l['thread_review'] = "Xem trước chủ đề (Mới nhất trước)";
 $l['thread_review_more'] = "Chủ đề này có nhiều hơn {1} bài trả lời. <a href=\"{2}\">Đọc hết cả chủ đề.</a>";
 $l['posted_by'] = "Gửi bởi";
 $l['draft_saved'] = "Bài viết mới đã được lưu ở dạng nháp thành công.<br />Bây giờ bạn sẽ được đưa đến danh sách nháp của bạn.";
