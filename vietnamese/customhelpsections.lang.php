@@ -1,16 +1,16 @@
 <?php
 /**
- * MyBB 1.2 English Language Pack
- * Copyright © 2006 MyBB Group, All Rights Reserved
- * 
- * $Id: customhelpsections.lang.php 1398 2006-04-27 07:42:09Z chris $
+ * MyBB 1.6 Vietnamese Language Pack
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: customhelpsections.lang.php 5297 2010-12-28 22:01:14Z Tomm $
  */
 
 /*
  * Custom Help Section Translation Format
  *
  * // Help Section {sid}
- * $l['s{sid}_name'] = "Section name";
- * $l['s{sid}_desc'] = "Section description";
+ * $l['s{sid}_name'] = "Tên chương";
+ * $l['s{sid}_desc'] = "Mô tả về chương";
  */
 ?>

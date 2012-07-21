@@ -1,9 +1,9 @@
 <?php
 /**
- * MyBB 1.6 Vietnamese Language Pack Pack
- * Copyright 2012 Vietnamese Language Pack, All Rights Reserved
- *
- * $Id: calendar.lang.php 5557 2012-02-24 14:06:44Z Vietnamese Language Pack $
+ * MyBB 1.6 Vietnamese Language Pack
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: calendar.lang.php 5828 2012-05-08 16:06:16Z Tomm $
  */
 
 $l['nav_calendar'] = "Lịch";
@@ -13,7 +13,7 @@ $l['nav_addevent'] = "Thêm sự kiện";
 $l['nav_editevent'] = "Sửa sự kiện";
 $l['nav_move_event'] = "Di chuyển sự kiện";
 
-$l['calendar_disabled'] = "Bạn không thể sử dụng lịch vì nó đã bị khoá bởi Administrator.";
+$l['calendar_disabled'] = "Bạn không thể sử dụng lịch vì nó đã bị khoá bởi Người quản trị.";
 
 // In some languages these months need to be slightly different than those defined in global.lang.php
 $l['alt_month_1'] = "Tháng 1";
@@ -45,7 +45,7 @@ $l['add_event'] = "Thêm sự kiện";
 $l['event_date'] = "Ngày diễn ra:";
 $l['event_recurring_start_date'] = "Ngày bắt đầu:";
 $l['event_recurring_end_date'] = "Ngày kết thúc:";
-$l['event_recurring_repeat_days'] = "Sự kiện lặp lại vào:";
+$l['event_recurring_repeat_days'] = "Sự kiện lặp lại sau mỗi:";
 $l['event_name'] = "Tên sự kiện:";
 $l['event_details'] = "Thông tin sự kiện:";
 $l['event_options'] = "Tuỳ chỉnh:";
@@ -62,7 +62,7 @@ $l['no_events'] = "Đây là ngày không có bất kỳ sự kiện nào liên 
 $l['years_old'] = "{1} tuổi";
 $l['alt_edit'] = "Sửa sự kiện này";
 $l['alt_delete'] = "Xoá sự kiện này";
-$l['moderator_options'] = "Moderator Options";
+$l['moderator_options'] = "Tùy chọn Điều phối";
 $l['approve_event'] = "Chấp nhận sự kiện";
 $l['unapprove_event'] = "Không chấp nhận sự kiện";
 $l['move_event'] = "Di chuyển sự kiện";
@@ -93,7 +93,7 @@ $l['delete_2'] = "<b>Chú ý:</b> Tiến trình này sẽ không thể phục h�
 $l['delete_now'] = "Xoá bây giờ";
 $l['jump_to_calendar'] = "Nhảy đến lịch:";
 $l['select_calendar'] = "Lịch:";
-$l['type_single'] = "Single day event";
+$l['type_single'] = "Sự kiện ngày đơn";
 $l['type_ranged'] = "Thứ tự hoặc chu kỳ của sự kiện";
 $l['enter_time'] = "Thời gian:";
 $l['start_time'] = "Bắt đầu:";
@@ -123,22 +123,22 @@ $l['move_to_calendar'] = "Di chuyển đến lịch:";
 $l['weekly_overview'] = "Xem mỗi tuần:";
 $l['previous_week'] = "Tuần trước";
 $l['next_week'] = "Tuần tiếp theo";
-$l['first'] = "thứ nhất";
-$l['second'] = "thứ nhì";
-$l['third'] = "thứ ba";
-$l['fourth'] = "thứ tư";
-$l['last'] = "cuối cùng";
+$l['first'] = "Thứ nhất";
+$l['second'] = "Thứ hai";
+$l['third'] = "Thứ ba";
+$l['fourth'] = "Thứ tư";
+$l['last'] = "Cuối cùng";
 $l['all_day'] = "Toàn bộ ngày";
 $l['starts'] = "Bắt đầu: ";
 $l['finishes'] = "Kết thúc: ";
 
 $l['error_incorrectday'] = "Ngày bạn chọn không tồn tại. Quay trở lại và thử lại.";
-$l['error_invalidevent'] = "Sự kiện bạn chọn không tồn tại.";
+$l['error_invalidevent'] = "Sự kiện bạn chọn không hợp lệ hoặc chưa tồn tại.";
 $l['invalid_calendar'] = "Lịch bạn chọn không tồn tại. Bạn có chắc là đã chọn đúng trang?";
-$l['redirect_eventdeleted'] = "Sự kiện đã được xoá.<br />Bạn sẽ được chuyển về trang lịch.";
+$l['redirect_eventdeleted'] = "Sự kiện đã được xoá thành công.<br />Bạn sẽ được chuyển về trang lịch.";
 $l['redirect_eventupdated'] = "Sự kiện đã được cập nhật thành công.<br />Bạn đang được chuyển về sự kiện.";
-$l['redirect_eventadded'] = "Sự kiện đã được thêm vào.<br />Bạn đang được chuyển về sự kiện.";
-$l['redirect_eventadded_moderation'] = "Sự kiện đã được thêm vào nhưng cần đợi xét duyệt trước khi công bố.<br />Bạn đang được chuyển về trang lịch.";
+$l['redirect_eventadded'] = "Sự kiện đã được thêm vào thành công.<br />Bạn đang được chuyển về sự kiện.";
+$l['redirect_eventadded_moderation'] = "Sự kiện đã được thêm vào thành công nhưng cần đợi xét duyệt trước khi công bố.<br />Bạn đang được chuyển về trang lịch.";
 $l['redirect_eventunapproved'] = "Sự kiện không được chấp thuận.<br />Bạn đang được chuyển về sự kiện.";
 $l['redirect_eventapproved'] = "Sự kiện đã được chấp thuận.<br />Bạn đang được chuyển về sự kiện.";
 ?>

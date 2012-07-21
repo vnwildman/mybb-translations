@@ -1,9 +1,9 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2012 Vietnamese Language Pack, All Rights Reserved
- * 
- * $Id: customhelpdocs.lang.php 5297 2012-02-24 22:01:14Z Vietnamese Language Pack $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version. 
+ * $Id: customhelpdocs.lang.php 5297 2010-12-28 22:01:14Z Tomm $
  */
 
 /*

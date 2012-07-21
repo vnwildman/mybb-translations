@@ -1,9 +1,9 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2010 MyBB Community Vietnam, All Rights Reserved
- * 
- * $Id: helpdocs.lang.php 5297 2012-02-24 22:01:14Z MyBB Community Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: helpdocs.lang.php 5297 2010-12-28 22:01:14Z Tomm $
  */
 
 // Help Document 1
@@ -11,12 +11,12 @@ $l['d1_name'] = "Đăng ký thành viên";
 $l['d1_desc'] = "Quyền lợi và nghĩa vụ của thành viên.";
 $l['d1_document'] = "Một số khu vực của diễn đàn yêu cầu bạn đăng nhập để xem. Đăng ký thành viên là miễn phí và chỉ tốn vài phút để hoàn thành.
 <br /><br />Tối khuyên khích bạn nên đăng ký, là thành viên bạn có thể viết bài, gởi tin nhắn, tìm thấy những gì mình thích.
-<br /><br />Một vài nét đặc trưng của thành viên là chức năng theo dõi chủ đề, thay đổi giao diện, viết ghi chú cá nhân và gởi email cho thành viên trong diễn đàn.";
+<br /><br />Một vài tính năng yêu cầu đăng ký là theo dõi chủ đề, thay đổi giao diện, viết ghi chú cá nhân và gởi thư điện tử cho thành viên trong diễn đàn.";
 
 // Help Document 2
 $l['d2_name'] = "Cập nhật thông tin cá nhân";
 $l['d2_desc'] = "Thay đổi thông tin hiện hành của bạn.";
-$l['d2_document'] = "Bạn có thể cập nhật thông tin của mình như gởi tin nhắn, thay đổi mật khẩu, thay đổi địa chỉ email. Bạn có thể thay đổi bất kỳ thông tin nào trong bảng điều khiển cá nhân. Để vào bảng điều khiển cá nhân bạn có thể click vào  \"Cá nhân\". Từ đừ, ví dụ bạn chọn  \"Sửa thông tin\" và thay đổi hoặc cập nhật bất kỳ thông tin nào, sau đó click vào nút ở phía dưới của trang để lưu những thay đổi.";
+$l['d2_document'] = "Bạn có thể cập nhật thông tin của mình như gởi tin nhắn, thay đổi mật khẩu, thay đổi địa chỉ thư điện tử. Bạn có thể thay đổi bất kỳ thông tin nào trong bảng điều khiển cá nhân. Để vào bảng điều khiển cá nhân bạn có thể click vào  \"Cá nhân\". Từ đừ, ví dụ bạn chọn  \"Sửa thông tin\" và thay đổi hoặc cập nhật bất kỳ thông tin nào, sau đó click vào nút ở phía dưới của trang để lưu những thay đổi.";
 
 // Help Document 3
 $l['d3_name'] = "Sử dụng Cookies trên MyBB";
