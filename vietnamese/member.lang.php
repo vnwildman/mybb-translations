@@ -1,18 +1,18 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2010 MyBB Community Vietnam, All Rights Reserved
- * 
- * $Id: member.lang.php 5297 2012-02-24 22:01:14Z MyBB Community Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: member.lang.php 5741 2011-12-30 20:55:35Z ralgith $
  */
 
 $l['nav_register'] = "Đăng ký";
 $l['nav_activate'] = "Kích hoạt";
-$l['nav_resendactivation'] = "Gửi lại Email Kích hoạt";
+$l['nav_resendactivation'] = "Gửi lại thư điện tử Kích hoạt";
 $l['nav_lostpw'] = "Khôi phục Mật khẩu đã quên";
 $l['nav_resetpassword'] = "Thiết lập lại mật mã";
 $l['nav_login'] = "Đăng nhập";
-$l['nav_emailuser'] = "Email Thành viên";
+$l['nav_emailuser'] = "Thư điện tử Thành viên";
 $l['nav_profile'] = "Thông tin của {1}";
 
 $l['tpp_option'] = "Hiện {1} chủ đề mỗi trang";
@@ -21,11 +21,11 @@ $l['account_activation'] = "Kích hoạt Tài khoản";
 $l['activate_account'] = "Kích hoạt tài khoản";
 $l['activation_code'] = "Mã kích hoạt";
 
-$l['email_user'] = "Gửi {1} một Email";
+$l['email_user'] = "Gửi {1} một thư điện tử";
 $l['email_subject'] = "Tiêu đề thư";
 $l['email_message'] = "Nội dung thư";
 $l['send_email'] = "Gửi thư";
-$l['error_hideemail'] = "Người nhận đã chọn để ẩn địa chỉ Email của họ và bạn không thể gửi thư cho họ";
+$l['error_hideemail'] = "Người nhận đã chọn để ẩn địa chỉ thư điện tử của họ và bạn không thể gửi thư cho họ";
 $l['error_no_email_subject'] = "Xin nhập vào tiêu đề thư";
 $l['error_no_email_message'] = "Xin nhập vào nội dung thư";
 
@@ -34,7 +34,7 @@ $l['pw_note'] = "Xin lưu ý rằng mật khẩu là trường hợp nhạy cả
 $l['lostpw_note'] = "Quên mật khẩu?";
 $l['lost_pw'] = "Quên mật mã tài khoản";
 $l['lost_pw_form'] = "Mẫu khôi phục mật mã bị mất";
-$l['email_address'] = "Địa chỉ Email:";
+$l['email_address'] = "Địa chỉ thư điện tử:";
 $l['request_user_pass'] = "Yêu cầu Tài khoản/Mật khẩu";
 $l['profile'] = "Thông tin của {1}";
 $l['registration_date'] = "Ngày đăng ký:";
@@ -56,7 +56,7 @@ $l['users_contact_details'] = "Chi tiết liên lạc của {1}";
 $l['homepage'] = "Trang Chủ:";
 $l['pm'] = "Tin cá nhân:";
 $l['send_pm'] = "Gửi {1} một tin nhắn.";
-$l['icq_number'] = "ICQ Number:";
+$l['icq_number'] = "Số ICQ:";
 $l['aim_screenname'] = "AIM Screen Name:";
 $l['yahoo_id'] = "Yahoo ID:";
 $l['msn'] = "MSN ID:";
@@ -69,8 +69,8 @@ $l['away_since'] = "Vắng mặt từ:";
 $l['away_returns'] = "Trở lại vào:";
 $l['away_no_reason'] = "Không lý do.";
 $l['users_additional_info'] = "Thông tin cá nhân của {1}";
-$l['email'] = "Email:";
-$l['send_user_email'] = "Gửi {1} một Email.";
+$l['email'] = "Thư điện tử:";
+$l['send_user_email'] = "Gửi {1} một thư điện tử.";
 $l['users_signature'] = "Chữ ký của{1}";
 $l['agreement'] = "Các điều lệ";
 $l['agreement_1'] = "Điều lệ là tự tâm, bởi bạn, chính bạn và do bạn.";
@@ -80,8 +80,8 @@ $l['agreement_4'] = "Chúng ta sẽ có nhiều chương trình offline trong t�
 $l['agreement_5'] = "Nếu bạn đồng ý, vui lòng nhấn nút 'Đồng ý' bên dưới.";
 $l['registration'] = "Bản đăng ký";
 $l['required_fields'] = "Bắt buộc";
-$l['complex_password'] = "Password <acronym title=\"Mật khẩu tối thiểu {1} ký tự và phải bao gồm một ký tự viết hoa, 1 ký tự viết thường và 1 ký tự số.\">An toàn</acronym>:";
-$l['confirm_email'] = "Xác nhận email:";
+$l['complex_password'] = "<acronym title=\"Mật khẩu tối thiểu {1} ký tự và phải bao gồm một ký tự viết hoa, 1 ký tự viết thường và 1 ký tự số.\">An toàn</acronym>:";
+$l['confirm_email'] = "Xác nhận thư điện tử:";
 $l['optional_fields'] = "Không bắt buộc";
 $l['website_url'] = "Địa chỉ website của bạn:";
 $l['birthdate'] = "Ngày sinh:";
@@ -90,12 +90,12 @@ $l['i_agree'] = "Đồng ý";
 $l['account_details'] = "Thông tin tài khoản";
 $l['account_prefs'] = "Cấu hình tình khoản:";
 $l['invisible_mode'] = "Tôi muốn ẩn danh khi đăng nhập vào diễn đàn.";
-$l['allow_notices'] = "Nhận email từ quản trị viên.";
-$l['hide_email'] = "Không hiện địa chỉ email của tôi.";
+$l['allow_notices'] = "Nhận thư điện tử từ quản trị viên.";
+$l['hide_email'] = "Không hiện địa chỉ thư điện tử của tôi.";
 $l['email_notify'] = "Tự động đặt theo dõi cho chủ đề có bài của tôi.";
 $l['receive_pms'] = "Nhận tin nhắn cá nhân từ mọi người.";
 $l['pm_notice'] = "Cảnh báo khi có tin nhắn mới gửi cho tôi.";
-$l['email_notify_newpm'] = "Thông báo qua email cho tôi khi có tin nhắn mới.";
+$l['email_notify_newpm'] = "Thông báo qua thư điện tử cho tôi khi có tin nhắn mới.";
 $l['time_offset'] = "Bỏ qua hiệu chỉnh Giờ khu vực (<acronym title=\"Daylight Saving Time\">DST</acronym> - Daylight Saving Time)";
 $l['time_offset_desc'] = "Bạn có thể chọn giờ tại khu vực mà mình đăng sống cho phù hợp.";
 $l['dst_correction'] = "Hiệu chỉnh Daylight Saving Time:";
@@ -114,7 +114,7 @@ $l['birthdayprivacyage'] = "Chỉ hiện tuổi";
 $l['leave_this_field_empty'] = "Để trống ô này:";
 $l['error_need_to_be_thirteen'] = "Bạn cần phải từ 13 tuổi trở lên để đăng kí tham gia diễn đàn";
 $l['coppa_registration'] = "Đơn đăng ký COPPA";
-$l['coppa_form_instructions'] = "Xin vui lòng in biểu mẫu này, điền vào nó hoặc gửi fax đến số dưới đây hoặc email để được cung cấp địa chỉ thư.";
+$l['coppa_form_instructions'] = "Xin vui lòng in biểu mẫu này, điền vào nó hoặc gửi fax đến số dưới đây hoặc thư điện tử để được cung cấp địa chỉ thư.";
 $l['fax_number'] = "Số Fax:";
 $l['mailing_address'] = "Địa chỉ Mail:";
 $l['account_information'] = "Thông tin tài khoản";
@@ -171,24 +171,24 @@ $l['admin_ban_in_acp'] = "Cấm vận thành viên trong Admin CP";
 $l['admin_options'] = "Tùy chọn của Admin";
 
 $l['redirect_registered_activation'] = "{2}, cảm ơn bạn đã đăng ký tại diễn đàn {1}.<p>Để hoàn tất đăng ký bạn vui lòng kiểm tra Mail của mình để kích hoạt tài khoản. Nếu không kích hoạt bạn sẽ không thể nào gửi bài ở diễn đàn được.";
-$l['redirect_emailupdated'] = "Thay đổi địa chỉ Email thành công.<br />Bây giờ bạn sẽ được đưa đến trang chính. <br/><br/> <img src=\"images/loading.gif\" />";
+$l['redirect_emailupdated'] = "Thay đổi địa chỉ thư điện tử thành công.<br />Bây giờ bạn sẽ được đưa đến trang chính. <br/><br/> <img src=\"images/loading.gif\" />";
 $l['redirect_accountactivated'] = "Tài khoản kích hoạt thành công.<br />Bây giờ bạn sẽ được đưa đến trang chính.<br/><br/> <img src=\"images/loading.gif\" /> ";
 $l['redirect_registered'] = "Cảm ơn bạn đã đăng kí vào {1}, {2}.<br />Bây giờ bạn sẽ được đưa đến trang chính.<br/><br/> <img src=\"images/loading.gif\" /> ";
 $l['redirect_registered_admin_activate'] = "Cảm ơn bạn đã đăng kí vào {1}, {2}.<br />Tài khoản của bạn cần phải được kích hoạt bởi người quản trị. Trước khi tài khoản của bạn chưa được kích hoạt , bạn không thể gửi bài trên diễn đàn.";
 $l['redirect_loggedout'] = "Bạn đã đăng xuất thành công.<br />Bây giờ bạn sẽ được đưa trở về trang chính.<br/><br/> <img src=\"images/loading.gif\" /> ";
 $l['redirect_alreadyloggedout'] = "Bạn đã đăng xuất hoặc chưa đăng nhập .<br />Bây giờ bạn sẽ được đưa trở về trang chính.<br/><br/> <img src=\"images/loading.gif\" />";
-$l['redirect_lostpwsent'] = "Cảm ơn bạn, Email sẽ được gửi tới địa chỉ thư của bạn với hướng dẫn về việc lấy lại mật khẩu.<br /><br />Bây giờ bạn sẽ được đưa trở về trang chính.<br/><br/> <img src=\"images/loading.gif\" /> ";
-$l['redirect_activationresent'] = "Email kích hoạt của bạn đã được gửi lại.";
-$l['redirect_passwordreset'] = "Cảm ơn bạn, mật khẩu cho tài khoản của bạn đã được đặt lại. Mật khẩu mới đã được gửi qua thư điện tử đến địa chỉ Email trong tài khoản của bạn.";
+$l['redirect_lostpwsent'] = "Cảm ơn bạn, thư điện tử sẽ được gửi tới địa chỉ thư của bạn với hướng dẫn về việc lấy lại mật khẩu.<br /><br />Bây giờ bạn sẽ được đưa trở về trang chính.<br/><br/> <img src=\"images/loading.gif\" /> ";
+$l['redirect_activationresent'] = "Thư điện tử kích hoạt của bạn đã được gửi lại.";
+$l['redirect_passwordreset'] = "Cảm ơn bạn, mật khẩu cho tài khoản của bạn đã được đặt lại. Mật khẩu mới đã được gửi qua thư điện tử đến địa chỉ thư điện tử trong tài khoản của bạn.";
 $l['redirect_memberrated'] = "Thành viên đã được đánh giá.";
-$l['redirect_registered_passwordsent'] = "Một  mật khẩu ngẫu nhiên đã được được gửi đến địa chỉ Email của bạn. Trước khi bạn có thể đăng nhập vào diễn đàn, bạn cần phải kiểm tra email để biết mật khẩu của bạn.";
+$l['redirect_registered_passwordsent'] = "Một  mật khẩu ngẫu nhiên đã được được gửi đến địa chỉ thư điện tử của bạn. Trước khi bạn có thể đăng nhập vào diễn đàn, bạn cần phải kiểm tra thư điện tử để biết mật khẩu của bạn.";
 $l['redirect_validated'] = "Cảm ơn bạn, tài khoản của bạn đã được xác nhận.<br />Bây giờ bạn sẽ được đưa trở về trang chính.<br/><br/> <img src=\"images/loading.gif\" />";
 
-$l['error_activated_by_admin'] = "Bạn không thể gửi lại Email kích hoạt do tất cả các đăng ký mới từ diễn đàn cần được xác nhận bởi Quản trị viên.";
+$l['error_activated_by_admin'] = "Bạn không thể gửi lại thư điện tử kích hoạt do tất cả các đăng ký mới từ diễn đàn cần được xác nhận bởi Quản trị viên.";
 $l['error_alreadyregistered'] = "Xin lỗi, nhưng hệ thống cho thấy bạn đã đăng ký trên diễn đàn và việc đăng ký nhiều tài khoản đã bị vô hiệu hoá.";
 $l['error_alreadyregisteredtime'] = "Bạn không thể đăng ký thêm tài khoản vì đã có {1} đăng kí mới từ địa chỉ IP của bạn trong vòng {2} giờ qua. Xin hãy thử lại sau.";
-$l['error_badlostpwcode'] = "Bạn đã nhập sai mật khẩu vừa thiết lập lại. Xin vui lòng xem lại Email nhận được hoặc liên lạc với Ban điều hành diễn đàn để được trợ giúp.";
-$l['error_badactivationcode'] = "Bạn đã nhập sai mã kích hoạt tài khoản. Để gửi lại e-mail kích hoạt đến địa chỉ email trong hồ sơ, xin vui lòng bấm vào <a href=\"member.php?action=resendactivation\">đây</a>.";
+$l['error_badlostpwcode'] = "Bạn đã nhập sai mật khẩu vừa thiết lập lại. Xin vui lòng xem lại thư điện tử nhận được hoặc liên lạc với Ban điều hành diễn đàn để được trợ giúp.";
+$l['error_badactivationcode'] = "Bạn đã nhập sai mã kích hoạt tài khoản. Để gửi lại e-mail kích hoạt đến địa chỉ thư điện tử trong hồ sơ, xin vui lòng bấm vào <a href=\"member.php?action=resendactivation\">đây</a>.";
 $l['error_alreadyactivated'] = "Tài khoản của bạn đã được kích hoạt hoặc không cần xác nhận qua e-mail.";
 $l['error_nothreadurl'] = "Tin nhắn của bạn không chứa địa chỉ của chủ đề. Xin vui lòng sử dụng tính năng\"gửi cho bạn bè\" để tiếp tục.";
 $l['error_bannedusername'] = "Tài khoản này đã bị cấm.Xin hãy sử dụng tài khoản khác.";
@@ -198,8 +198,8 @@ $l['error_regimagerequired'] = "Xin vui lòng nhập vào mã xác nhận hiển
 $l['error_spam_deny'] = "Hệ thống của chúng tôi phát hiện rằng bạn có thể là một spammer và do đó bạn đã bị từ chối đăng ký. Nếu bạn cảm thấy đây là một sai lầm, xin vui lòng liên hệ với người quản trị.";
 
 $l['js_validator_no_username'] = "Bạn cần nhập tên sử dụng";
-$l['js_validator_invalid_email'] = "Bạn cần nhập đúng email của mình";
-$l['js_validator_email_match'] = "Bạn cần nhập lại địa chỉ email giống như trên";
+$l['js_validator_invalid_email'] = "Bạn cần nhập đúng thư điện tử của mình";
+$l['js_validator_email_match'] = "Bạn cần nhập lại địa chỉ thư điện tử giống như trên";
 $l['js_validator_no_image_text'] = "Bạn cần nhập ký tự mà bức ảnh thể hiện";
 $l['js_validator_password_matches'] = "Vui lòng nhập đúng mật khẩu ở trên";
 $l['js_validator_password_complexity'] = "Mật mã của bạn phải nhiều hơn một kí tự";
@@ -212,8 +212,8 @@ $l['js_validator_captcha_valid'] = "Kiểm tra mã xác minh.";
 
 $l['subscription_method'] = "Chế độ theo dõi chủ đề mặc định:";
 $l['no_auto_subscribe'] = "Không theo dõi";
-$l['no_email_subscribe'] = "Không thông báo qua email";
-$l['instant_email_subscribe'] = "Thông báo qua email";
+$l['no_email_subscribe'] = "Không thông báo qua thư điện tử";
+$l['instant_email_subscribe'] = "Thông báo qua thư điện tử";
 
 $l['remove_from_buddy_list'] = "Xóa khỏi danh sách Bạn bè";
 $l['add_to_buddy_list'] = "Thêm vào danh sách Bạn bè";

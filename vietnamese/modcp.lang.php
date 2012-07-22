@@ -1,14 +1,14 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
- *
- * $Id: modcp.lang.php 2012-02-28 16:00:00Z Community MyBB Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: modcp.lang.php 5828 2012-05-08 16:06:16Z Tomm $
  */
 
 $l['nav_width'] = "180";
 $l['nav_modcp'] = "Mod CP";
-$l['nav_menu'] = "Mục lục";
+$l['nav_menu'] = "Trình đơn";
 
 $l['mcp_nav_home'] = "Trang chủ Mod CP";
 $l['mcp_nav_forums'] = "Diễn đàn &amp; Bài viết";
@@ -16,11 +16,11 @@ $l['mcp_nav_announcements'] = "Thông báo";
 $l['mcp_nav_modqueue'] = "Danh sách Quản trị";
 $l['mcp_nav_reported_posts'] = "Báo cáo bài viết";
 $l['mcp_nav_all_reported_posts'] = "Tất cả các báo cáo";
-$l['mcp_nav_modlogs'] = "Điều phối bản ghi";
+$l['mcp_nav_modlogs'] = "Nhật ký Điều phối";
 $l['mcp_nav_users'] = "Tài khoản";
 $l['mcp_nav_editprofile'] = "Thay đổi thông tin";
 $l['mcp_nav_banning'] = "Cấm";
-$l['mcp_nav_warninglogs'] = "Bản ghi Cảnh cáo";
+$l['mcp_nav_warninglogs'] = "Nhật ký Cảnh báo";
 $l['mcp_nav_ipsearch'] = "Tìm địa chỉ IP";
 $l['mcp_nav_editing_ban'] = "Sửa lệnh cấm";
 $l['mcp_nav_ban_user'] = "Cấm Tài khoản";
@@ -52,7 +52,7 @@ $l['redirect_modnotes'] = "Cập nhật thành công ghi chú của Quản trị
 $l['moderator_notes'] = "Ghi chú của Quản trị viên";
 $l['notes_public_all'] = "Tất cả các Quản trị viên có thể xem ghi chú này.";
 $l['save_notes'] = "Lưu ghi chú";
-$l['bans_ending_soon'] = "Bans Ending Soon";
+$l['bans_ending_soon'] = "Lệnh Cấm sắp kết thúc";
 $l['latest_5_modactions'] = "5 hoạt động mới nhất của Quản trị viên";
 $l['awaiting_moderation'] = "Đang xét duyệt";
 $l['type'] = "Kiểu";
@@ -62,8 +62,8 @@ $l['ipsearch'] = "Tìm kiếm IP";
 $l['ipsearch_results'] = "Kết quả tìm kiếm IP cho '{1}'";
 $l['ipaddress_search'] = "Tìm địa chỉ IP";
 $l['ipaddress_misc_info'] = "Thông tin khác về '{1}'";
-$l['ipaddress_host_name'] = "Host Name:";
-$l['ipaddress_location'] = "GeoIP Location:";
+$l['ipaddress_host_name'] = "Tên Máy:";
+$l['ipaddress_location'] = "Vị trí GeoIP:";
 $l['search_users'] = "Tìm kiếm Tài khoản";
 $l['search_posts'] = "Tìm kiếm bài viết";
 $l['ip_address'] = "Địa chỉ IP:";
@@ -78,7 +78,6 @@ $l['options'] = "Tùy chọn:";
 $l['find'] = "Tìm";
 $l['modlogs'] = "Điều phối bản ghi";
 $l['action'] = "Hành động";
-$l['username'] = "Tài khoản";
 $l['all_moderators'] = "Tất cả các Quản trị viên";
 $l['date'] = "Ngày";
 $l['ip'] = "Địa chỉ IP";
@@ -93,7 +92,6 @@ $l['forum_name'] = "Tên diễn đàn";
 $l['thread_subject'] = "Tiêu đề bài viết";
 $l['in'] = "trong";
 $l['order'] = "sắp xếp";
-$l['thread'] = "Chủ đề:";
 $l['asc'] = "Tăng dần";
 $l['desc'] = "Giảm dần";
 $l['per_page'] = "Kết quả trên một trang:";
@@ -107,7 +105,6 @@ $l['postnum'] = "Số bài viết";
 $l['username_contains'] = "Tên tài khoản chứa";
 $l['no_user_results'] = "Không tìm thấy kết quả phù hợp.";
 $l['edit_profile'] = "Sửa thông tin của {1}";
-$l['usergroup'] = "Nhóm thành viên:";
 $l['birthday'] = "Ngày sinh:";
 $l['title'] = "Tiêu đề:";
 $l['profile_required'] = "Bắt buộc";
@@ -138,7 +135,6 @@ $l['mod_queue'] = "Danh sách quản trị";
 $l['approve'] = "Chấp nhận";
 $l['ignore'] = "Bỏ qua";
 $l['perform_actions'] = "Thực hiện";
-$l['subject'] = "Tiêu đề";
 $l['author'] = "Người viết";
 $l['threads'] = "Chủ đề";
 $l['posts'] = "Bài viết";
@@ -189,6 +185,8 @@ $l['multi_approve_threads'] = "Chấp nhận chủ đề đã chọn";
 $l['multi_delete_threads'] = "Xóa chủ đề đã chọn";
 $l['edited_user'] = "Sửa thông tin Tài khoản";
 $l['edited_user_info'] = "<strong>Tài khoản:</strong> <a href=\"{2}\">{1}</a>";
+$l['banned_user'] = "Tài khoản bị cấm";
+$l['lifted_ban'] = "Lifted User Ban";
 
 $l['warning_logs'] = "Bản ghi cảnh cáo";
 $l['warned_user'] = "Tài khoản bị cảnh cáo";

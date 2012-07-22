@@ -1,9 +1,9 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2010 MyBB Community Vietnam, All Rights Reserved
- * 
- * $Id: memberlist.lang.php 5297 2012-02-24 22:01:14Z MyBB Community Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: memberlist.lang.php 5828 2012-05-08 16:06:16Z Tomm $
  */
 
 $l['nav_memberlist'] = "Danh sách thành viên";
@@ -21,25 +21,25 @@ $l['search_members'] = "Tìm thành viên";
 $l['website'] = "Website";
 $l['sort_by'] = "Xếp theo";
 $l['contains'] = "Thông tin:";
-$l['sort_by_username'] = "Tên";
-$l['sort_by_regdate'] = "Ngày đăng ký";
-$l['sort_by_lastvisit'] = "Lần vào cuối";
-$l['sort_by_posts'] = "Số bài viết";
+$l['sort_by_username'] = "Xếp theo: Tên";
+$l['sort_by_regdate'] = "Xếp theo: Ngày đăng ký";
+$l['sort_by_lastvisit'] = "Xếp theo: Lần vào cuối";
+$l['sort_by_posts'] = "Xếp theo: Số bài viết";
 $l['sort_by_referrals'] = "Xếp theo: Thành viên đã giới thiệu";
-$l['order_asc'] = "Thứ tự tăng dần";
-$l['order_desc'] = "Thứ tự giảm dần";
+$l['order_asc'] = "thứ tự tăng dần";
+$l['order_desc'] = "thứ tự giảm dần";
 $l['forumteam'] = "Đội ngũ điều hành";
 $l['advanced_search'] = "Tìm kiếm nâng cao";
 $l['search_member_list'] = "Tìm danh sách thành viên";
-$l['search_criteria'] = "Nội dung tìm";
+$l['search_criteria'] = "Tiêu chuẩn tìm";
 $l['begins_with'] = "bắt đầu với";
-$l['username_contains'] = "tên thành viên";
+$l['username_contains'] = "có chứa";
 $l['search_website'] = "Địa chỉ Website";
 $l['search_aim'] = "AIM Screen Name";
 $l['search_msn'] = "Windows Live Messenger Address";
 $l['search_yahoo'] = "Yahoo! Messenger Screen Name";
 $l['search_icq'] = "Số ICQ";
-$l['search_options'] = "Tìm kiếm tùy chọn";
+$l['search_options'] = "Tùy chọn tìm kiếm";
 $l['per_page'] = "Kết quả mỗi trang";
 $l['search'] = "Tìm";
 

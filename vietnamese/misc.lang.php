@@ -1,9 +1,9 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2010 MyBB Community Vietnam, All Rights Reserved
- * 
- * $Id: misc.lang.php 5297 2012-02-24 22:01:14Z MyBB Community Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: misc.lang.php 5297 2010-12-28 22:01:14Z Tomm $
  */
 
 $l['nav_helpdocs'] = "Tài liệu Trợ giúp";
@@ -14,18 +14,18 @@ $l['aol_im'] = "AOL IM";
 $l['msn'] = "MSN Messenger";
 $l['yahoo_im'] = "Yahoo IM";
 $l['msn_messenger_center'] = "MSN Messenger Center";
-$l['msn_address_is'] = "Địa chỉ của {1} là:";
-$l['yahoo_center'] = "Trung tâm Yahoo!";
+$l['msn_address_is'] = "Địa chỉ MSN của {1} là:";
+$l['yahoo_center'] = " Yahoo! Trung tâm";
 $l['send_y_message'] = "Gửi {1} một tin nhắn qua Yahoo! Messager.";
-$l['view_y_profile'] = "Xem Yahoo! Profile của {1} .";
+$l['view_y_profile'] = "Xem Yahoo của {1}! Tiểu sử.";
 $l['aim_center'] = "Trung tâm AOL IM";
 
-$l['download_aim'] = "Tải AIM";
+$l['download_aim'] = "Tải về AIM";
 $l['aim_remote'] = "Điều khiển AIM từ xa";
 $l['send_me_instant'] = "Gửi cho tôi một  Instant Message";
 $l['add_me_buddy_list'] = "Thêm tôi vào Danh Sách Bạn Bè của bạn";
 $l['add_remote_to_page'] = "Thêm điều khiển từ xa đến trang của bạn";
-$l['download_aol_im'] = "Tải AOL Instant Messenger";
+$l['download_aol_im'] = "Tải về AOL Instant Messenger";
 
 $l['buddy_list'] = "Danh sách bạn bè";
 $l['online'] = "Online";
@@ -34,7 +34,7 @@ $l['delete_buddy'] = "X";
 $l['pm_buddy'] = "Gửi tin nhắn riêng";
 $l['last_active'] = "<strong>Hoạt động cuối:</strong> {1}";
 $l['close'] = "Đóng";
-$l['no_buddies'] = "<em>Your buddy list is currently empty. Use your User CP or visit a user profile to add users to your buddy list.</em>";
+$l['no_buddies'] = "<em>Danh sách bạn bè hiện tại trống rỗng. Sử dụng User CP hoặc tiểu sử để thêm các tài khoản khác vào danh sách bạn bè của mình.</em>";
 
 $l['help_docs'] = "Tài liệu Trợ giúp";
 
@@ -61,7 +61,7 @@ $l['syndication_forum_desc'] = "Xim hãy chọn một diễn đàn từ bên ph�
 $l['syndication_version'] = "Phiên bản nguồn cấp dữ liệu:";
 $l['syndication_version_desc'] = "Xin vui lòng lựa chọn phiên bản của các nguồn cấp dữ liệu mà bạn muốn tạo ra.";
 $l['syndication_version_atom1'] = "Atom 1.0";
-$l['syndication_version_rss2'] = "RSS 2.00 (Default)";
+$l['syndication_version_rss2'] = "RSS 2.00 (Mặc định)";
 $l['syndication_generate'] = "Tạo nguồn cung cấp dữ liệu";
 $l['syndication_limit'] = "Giới hạn:";
 $l['syndication_limit_desc'] = "Số chủ đề để tải về cùng một lúc. Không nên để được vượt quá 50.";
