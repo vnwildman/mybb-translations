@@ -1,9 +1,9 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2010 MyBB Community Vietnam, All Rights Reserved
- * 
- * $Id: moderation.lang.php 2012-02-26 16:00:00Z MyBB Community Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: moderation.lang.php 5828 2012-05-08 16:06:16Z Tomm $
  */
 
 $l['nav_deletethread'] = "Xóa Chủ đề";
@@ -12,8 +12,8 @@ $l['nav_deleteposts'] = "Xóa các Bài viết có thể chọn";
 $l['nav_mergeposts'] = "Nhập các Bài viết có thể chọn";
 $l['nav_move'] = "Di chuyển hoặc sao chép chủ đề";
 $l['nav_threadnotes'] = "Ghi chú Chủ đề và bản ghi Quản trị";
-$l['nav_getip'] = "Xem địa chỉ IP viết bài";
-$l['nav_merge'] = "Nhập các Chủ đề";
+$l['nav_getip'] = "Xem địa chỉ IP gửi bài";
+$l['nav_merge'] = "Hòa trộn các Chủ đề";
 $l['nav_split'] = "Chia nhỏ Chủ đề";
 $l['nav_multi_deletethreads'] = "Xóa Chủ đề đã chọn";
 $l['nav_multi_deleteposts'] = "Xóa Bài viết đã chọn";
@@ -31,12 +31,12 @@ $l['delete_thread'] = "Xóa Chủ đề";
 $l['get_post_ip'] = "Xem IP gửi bài";
 $l['info_on_ip'] = "Thông tin về địa chỉ IP này";
 $l['ip_address'] = "Địa chỉ IP:";
-$l['hostname'] = "Hostname:";
+$l['hostname'] = "TênMáy:";
 $l['if_resolvable'] = "(nếu phân tích được)";
 $l['mod_options'] = "Tùy chọn của Quản trị viên:";
-$l['search_ip_users'] = "Tìm kiếm Tài khoản IP này";
-$l['search_ip_posts'] = "Tìm kiếm Bài viết IP này";
-$l['merge_threads'] = "Nhập các chủ đề";
+$l['search_ip_users'] = "Tìm kiếm Tài khoản có IP này";
+$l['search_ip_posts'] = "Tìm kiếm Bài viết có IP này";
+$l['merge_threads'] = "Hòa trộn các chủ đề";
 $l['new_subject'] = "Tiêu đề mới:";
 $l['thread_to_merge_with'] = "Chủ đề sáp nhập:";
 $l['merge_with_note'] = "Nhập URL Chủ đề để nhập với Chủ đề này vào ô bên phải.<br />Chủ đề đó sẽ bị xóa và mọi bài viết trong Chủ đề đó sẽ được sáp nhập với chủ đề này";
@@ -47,16 +47,16 @@ $l['new_forum'] = "Diễn đàn mới:";
 $l['method'] = "Phương thức";
 $l['method_move'] = "Di chuyển chủ đề";
 $l['method_move_redirect'] = "Xóa Chủ đề và để lại liên kết trong diễn đàn cũ số ngày:";
-$l['redirect_expire_note'] = "(để trống nếu Vĩnh viễn)";
+$l['redirect_expire_note'] = "(để trống nếu 'vô hạn')";
 $l['method_copy'] = "Sao chép chủ đề đến diễn đàn mới";
-$l['split_thread_subject'] = "[split]";
+$l['split_thread_subject'] = "[chia ra]";
 $l['split_thread'] = "Chia nhỏ chủ đề";
 $l['new_thread_info'] = "Thông tin Chủ đề mới";
 $l['posts_to_split'] = "Bài viết chia nhỏ";
 $l['thread_notes_editor'] = "Khung sửa ghi chú Chủ đề";
 $l['below_notes'] = "Bạn có thể sửa ghi chú của Chủ đề bên dưới đây.";
 $l['update_notes'] = "Cập nhật ghi chú Chủ đề";
-$l['mod_logs'] = "Bản ghi Quản trị viên (20 điều phối cuối cùng)";
+$l['mod_logs'] = "Nhật ký Quản trị viên (20 điều phối cuối cùng)";
 $l['mod_username'] = "Tài khoản";
 $l['mod_date'] = "Ngày";
 $l['mod_actions'] = "Điều phối";
@@ -106,12 +106,12 @@ $l['multi_moved_threads'] = "Di chuyển chủ đề";
 $l['multi_copied_threads'] = "Sao chép chủ đề";
 $l['custom_tool'] = "Công cụ tùy biến: {1}";
 
-$l['delayed_moderation'] = "chậm điều độ";
+$l['delayed_moderation'] = "Điều độ bị chậm";
 $l['delayed_moderation_desc'] = "Ở đây bạn có thể trì hoãn một hành động kiểm duyệt đối với một số lựa chọn của ngày.";
-$l['threads'] = "Threads:";
+$l['threads'] = "Chủ đề:";
 $l['threads_selected'] = "{1} Chủ đề được lựa chọn";
 $l['delay_moderation_for'] = "Trì hoãn điều độ:";
-$l['days'] = "day(s)";
+$l['days'] = "ngày";
 $l['moderation_action'] = "Kiểm duyệt Hành động:";
 $l['open_close_thread'] = "Đóng/Mở Chủ Đề";
 $l['remove_redirects'] = "Xóa các liên kết";
@@ -119,7 +119,7 @@ $l['remove_subscriptions'] = "Xóa Tán thành";
 $l['approve_unapprove_thread'] = "Chấp nhận/Từ chối Chủ đề";
 $l['stick_unstick_thread'] = "Đánh dấu/Bỏ dấu chủ đề";
 $l['save_delayed_moderation'] = "Lưu Điều phối trì hoãn";
-$l['custom'] = "Tùy biến";
+$l['custom'] = "tùy biến";
 $l['delayed_mod_queue'] = "Danh sách Điều phối trì hoãn";
 $l['days_to_perform_action'] = "Ngày để Điều phối";
 $l['leave_redirect'] = "Liên kết:";
@@ -129,34 +129,34 @@ $l['cancel'] = "Hủy";
 $l['leave_redirect_for'] = "Để lại liên kết trong:";
 $l['redirect_forever'] = "Vĩnh viễn";
 
-$l['error_nomergeposts'] = "Chỉ có thể sáp nhập 2 hay nhiều bài viết với nhau.";
+$l['error_nomergeposts'] = "Bạn cần chọn một hay nhiều bài viết để có thể hòa trộn các bài gửi với nhau.";
 $l['error_cantsplitonepost'] = "Bạn không thể chia Chủ đề chỉ gồm 1 Bài viết.";
 $l['error_badmergeurl'] = "URL đến bài viết cần sáp nhập là không hợp lệ. Vui lòng xem lại URL chính xác.<br />Xin vui lòng thử lại sau.";
 $l['error_inline_nothreadsselected'] = "Bạn chưa chọn chủ đề để Điều phối, hoặc Điều phối của bạn đã hết hạn (Tự động xóa sau 1 giờ). <br />Xin vui lòng thử lại sau.";
 $l['error_inline_nopostsselected'] = "Bạn chưa chọn Bài viết để Điều phối, hoặc Điều phối của bạn đã hết hạn (Tự động xóa sau 1 giờ). <br />Xin vui lòng thử lại sau.";
-$l['error_movetocategory'] = "This tool is trying to move the thread into a category. Please alter the tool and select a valid forum.";
+$l['error_movetocategory'] = "Công cụ này đang thử di chuyển chủ đề vào một category. Xin hãy thay đổi công cụ và chọn một forum hợp lệ.";
 $l['error_cantsplitall'] = "Bạn không thể chọn chia tất cả các Bài viết ra các Chủ đề khác nhau";
 $l['error_nosplitposts'] = "Bạn chưa chọn các bài viết để chia Chủ đề.";
 $l['error_movetosameforum'] = "Không thể chuyển Chủ đề này đến diễn đàn nó đang tồn tại. Hãy chọn một diễn đàn khác.";
 $l['error_mergewithself'] = "Không thể tự sáp nhập các Chủ đề với nhau.<br />Trở lại và nhập vào một URL hợp lệ.";
-$l['error_delayedmoderation_unsupported_type'] = "Nhập vào Kiểu hợp lệ.";
-$l['error_delayedmoderation_unsupported_method'] = "Nhập vào phương thức hợp lệ.";
-$l['error_delayedmoderation_invalid_delay'] = "Nhập vào thời gian trì hoãn hợp lệ.";
+$l['error_delayedmoderation_unsupported_type'] = "Rất tiếc, nhưng bạn đã không chọn một Kiểu hợp lệ cho hành động điều phối trì hoãn này.";
+$l['error_delayedmoderation_unsupported_method'] = "Rất tiếc, nhưng bạn đã không chọn một Phương thức di chuyển hợp lệ cho hành động điều phối trì hoãn này.";
+$l['error_delayedmoderation_invalid_delay'] = "Rất tiếc, nhưng bạn đã không chọn một thời gian trễ hợp lệ cho hành động điều phối trì hoãn này.";
 
-$l['redirect_pollnotdeleted'] = "Bình chọn không bị xóa vì bạn chưa đánh dấu \"Delete\".<br />Đang quay về chủ đề trước.";
-$l['redirect_polldeleted'] = "Xóa Bình chọn thành công.<br />Đang quay về chủ đề trước.";
+$l['redirect_pollnotdeleted'] = "Bình chọn không bị xóa vì bạn chưa đánh dấu \"Xóa\".<br />Đang quay về chủ đề trước.";
+$l['redirect_polldeleted'] = "Cảm ơn, xóa Bình chọn thành công.<br />Đang quay về chủ đề trước.";
 $l['redirect_mergeposts'] = "Nhập các bài viết thành công. Đang chuyển đến chủ đề đã chọn.";
-$l['redirect_openthread'] = "Mở chủ đề thành công.<br />Đang chuyển đến chủ đề đã chọn.";
-$l['redirect_closethread'] = "Đóng chủ đề thành công.<br />Đang chuyển đến chủ đề đã chọn.";
-$l['redirect_stickthread']  = "Đánh dấu chủ đề thành công.<br />Đang chuyển đến chủ đề đã chọn.";
-$l['redirect_unstickthread'] = "Bỏ dấu chủ đề thành công.<br />Đang chuyển đến chủ đề đã chọn.";
-$l['redirect_threaddeleted'] = "Xóa chủ đề thành công. <br />Đang trở về trang trước.";
+$l['redirect_openthread'] = "Cảm ơn, Mở chủ đề thành công.<br />Đang chuyển đến chủ đề đã chọn.";
+$l['redirect_closethread'] = "Cảm ơn, Đóng chủ đề thành công.<br />Đang chuyển đến chủ đề đã chọn.";
+$l['redirect_stickthread']  = "Cảm ơn, Đánh dấu chủ đề thành công.<br />Đang chuyển đến chủ đề đã chọn.";
+$l['redirect_unstickthread'] = "Cảm ơn, Bỏ dấu chủ đề thành công.<br />Đang chuyển đến chủ đề đã chọn.";
+$l['redirect_threaddeleted'] = "Cảm ơn, Xóa chủ đề thành công. <br />Đang trở về trang trước.";
 $l['redirect_threadmoved'] = "Chủ đề đã được Di chuyển/Sao chép đến diễn đàn mới thành công.<br />Đang chuyển đến Chủ đề đã chọn.";
 $l['redirect_redirectsremoved'] = "Tất cả liên kết đến Chủ đề này đã được xóa.<br />Đang trở về Chủ đề.";
 $l['redirect_threadapproved'] = "Chấp nhận chủ đề thành công.";
 $l['redirect_threadunapproved'] = "Không chấp nhận chủ đề thành công.";
 $l['redirect_threadsplit'] = "Chia chủ đề thành công.<br />Đang chuyển đến Chủ đề mới.";
-$l['redirect_threadnotesupdated'] = "Cập nhật ghi chú cho chủ đề thành công.<br />Đang trở về Chủ đề trước.";
+$l['redirect_threadnotesupdated'] = "Cảm ơn, Cập nhật ghi chú cho chủ đề thành công.<br />Đang trở về Chủ đề trước.";
 $l['redirect_threadsmerged'] = "Sáp nhập hai chủ đề đã chọn thành công.<br />Đang chuyển đến bài đã nhập.";
 $l['redirect_inline_threadsdeleted'] = "Xóa các chủ đề đã chọn thành công<br />Đang trở về trang trước.";
 $l['redirect_inline_threadsopened'] = "Mở các chủ đề đã chọn thành công.<br />Đang trở về trang trước.";

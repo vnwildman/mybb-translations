@@ -1,15 +1,15 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
- *
- * $Id: usercp.lang.php 2012-02-26 16:00:00Z Community MyBB Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: usercp.lang.php 5616 2011-09-20 13:24:59Z Tomm $
  */
 
 $l['nav_usercp'] = "Trang quản lý cá nhân";
 $l['nav_profile'] = "Sửa thông tin";
 $l['nav_options'] = "Chỉnh tùy chọn";
-$l['nav_email'] = "Đổi địa chỉ email";
+$l['nav_email'] = "Đổi địa chỉ thư điện tử";
 $l['nav_password'] = "Đổi mật mã";
 $l['nav_changename'] = "Đổi tên tài khoản";
 $l['nav_subthreads'] = "Theo dõi chủ đề";
@@ -37,9 +37,9 @@ $l['title'] = "Tiêu đề thành viên:";
 $l['postnum'] = "Bài viết:";
 $l['posts_day'] = "({1} mỗi ngày | {2} phần trăm trong tổng số bài viết)";
 $l['additional_contact_details'] = "Bổ sung thông tin liên hệ";
-$l['email'] = "Email:";
+$l['email'] = "Thư điện tử:";
 $l['reputation'] = "Danh tiếng:";
-$l['website'] = "Website:";
+$l['website'] = "Trang Web:";
 $l['usergroup'] = "Nhóm thành viên:";
 $l['birthday'] = "Ngày sinh:";
 $l['birthdayprivacy'] = "Ngày sinh riêng tư:";
@@ -48,7 +48,7 @@ $l['birthdayprivacynone'] = "Giấu tuổi và ngày sinh";
 $l['birthdayprivacyage'] = "Chỉ hiện tuổi";
 $l['avatar'] = "Ảnh đại diện:";
 $l['avatar_mine'] = "Đây là Avatar của bạn";
-$l['change_avatar'] = "Change Avatar";
+$l['change_avatar'] = "Thay đổi Avatar";
 $l['avatar_url'] = "Địa chỉ ảnh đại diện:";
 $l['avatar_url_note'] = "Nhập vào địa chỉ ảnh đại diện từ website khác.";
 $l['avatar_upload'] = "Tải ảnh đại diện:";
@@ -109,12 +109,12 @@ $l['sig_preview'] = "Xem lại chữ ký";
 $l['sig_suspended'] = "Khả năng của bạn để thêm một chữ ký đã bị đình chỉ.";
 $l['sig_suspended_posts'] = "Bạn phải có ít nhất {1} bài viết trước khi thêm một chữ ký.";
 
-$l['change_email'] = "Đổi địa chỉ mail";
+$l['change_email'] = "Đổi địa chỉ thư điện tử";
 $l['enter_password'] = "Vui lòng nhập mật mã";
-$l['please_enter_confirm_new_email'] = "Vui lòng điền và xác nhận địa chỉ Email mới của bạn";
-$l['new_email'] = "Địa chỉ Email mới:";
-$l['confirm_email'] = "Xác nhận địa chỉ email mới:";
-$l['update_email'] = "Cập nhật địa chỉ Email";
+$l['please_enter_confirm_new_email'] = "Vui lòng điền và xác nhận địa chỉ thư điện tử mới của bạn";
+$l['new_email'] = "Địa chỉ thư điện tử mới:";
+$l['confirm_email'] = "Xác nhận địa chỉ thư điện tử mới:";
+$l['update_email'] = "Cập nhật địa chỉ thư điện tử";
 $l['thread'] = "Chủ đề";
 $l['author'] = "Tác giả";
 $l['replies'] = "Trả lời";
@@ -134,9 +134,9 @@ $l['login_cookies_privacy'] = "Riêng tư";
 $l['invisible_mode'] = "Ẩn tôi trong danh sách những người online.";
 $l['invisible_mode_desc'] = "Lựa chọn sẽ ẩn bạn trong danh sách thành viên online.";
 $l['messaging_notification'] = "Tin nhắn và thông báo";
-$l['allow_notices'] = "Nhận email từ các quản trị viên.";
+$l['allow_notices'] = "Nhận thư điện tử từ các quản trị viên.";
 $l['allow_notices_desc'] = "Lựa chọn có sẽ cho phép quản trị viên gửi cho bạn những chú ý và thông tin diễn đàn.";
-$l['allow_emails'] = "Ẩn địa chỉ email của bạn từ các thành viên khác.";
+$l['allow_emails'] = "Ẩn địa chỉ thư điện tử của bạn từ các thành viên khác.";
 $l['allow_emails_desc'] = "Lựa chọn có sẽ cho phép thành viên gửi mail cho bạn thông qua diễn đàn.";
 $l['email_notify'] = "Tự động theo dõi đề tài bạn viết.";
 $l['email_notify_desc'] = "Lựa chọn có sẽ tự động theo dõi những chủ đề bạn đã tạo.";
@@ -144,7 +144,7 @@ $l['receive_pms'] = "Nhận tin nhắn từ các thành viên khác.";
 $l['receive_pms_desc'] = "Cho phép bạn gửi và nhận tin nhắn riêng.";
 $l['receive_from_buddy'] = "Chỉ nhận tin nhắn từ <a href=\"misc.php?action=buddypopup\" onclick=\"MyBB.popupWindow('misc.php?action=buddypopup', 'buddyList', 350, 350); return false;\" target=\"_blank\">danh sách bạn bè</a>.";
 $l['pm_notice'] = "Thông báo cho tôi khi có tin nhắn mới.";
-$l['pm_notify'] = "Thông báo qua email khi tôi có tin nhắn mới.";
+$l['pm_notify'] = "Thông báo qua thư điện tử khi tôi có tin nhắn mới.";
 $l['show_codebuttons'] = "Hiển thị thanh định dạng tuỳ chọn trên trang bài viết.";
 $l['show_redirect'] = "Hiển thị trang chuyển địa chỉ thân thiện .";
 $l['thread_view_options'] = "Tuỳ chọn xem bài viết";
@@ -202,7 +202,7 @@ $l['confirm_password'] = "Xác nhận mật mã:";
 $l['update_password'] = "Cập nhật mật mã";
 $l['edit_profile'] = "Thay đổi thông tin";
 $l['profile_required'] = "Yêu cầu";
-$l['change_email_notice'] = "Để thay đổi email, vui lòng <a href=\"usercp.php?action=email\">bấm vào đây</a>";
+$l['change_email_notice'] = "Để thay đổi thư điện tử, vui lòng <a href=\"usercp.php?action=email\">bấm vào đây</a>";
 $l['profile_optional'] = "Ô tùy chọn";
 $l['website_url'] = "Địa chỉ web của bạn:";
 $l['birthdate'] = "Ngày sinh:";
@@ -285,7 +285,7 @@ $l['attachments_attachment'] ="Đính kèm";
 $l['attachments_post'] = "Bài viết";
 $l['delete_attachments'] = "Xoá đính kèm đã chọn";
 $l['attachment_size_downloads'] = "({1}, {2} tải)";
-$l['attachment_thread'] = "Thread:";
+$l['attachment_thread'] = "Chủ đề:";
 $l['no_attachments'] = "Hiện tại bạn không có tệp tin đính kèm trong bất cứ bài viết nào";
 $l['date_uploaded'] ="Gửi";
 $l['no_attachments_selected'] = "Bạn chưa chọn tệp tin đính kèm nào để xoá.";
@@ -327,9 +327,9 @@ $l['redirect_profileupdated'] = "Cảm ơn , thông tin của bạn đã đượ
 $l['redirect_forumsubscriptionadded'] = "Diễn đàn bạn chọn đã được thêm vào danh sách theo dõi.<br />Bạn sẽ được đưa trở về chỗ cũ.";
 $l['redirect_forumsubscriptionremoved'] = "Diễn đàn bạn chọn đã được xoá khỏi danh sách theo dõi.<br />Bạn sẽ được đưa trở về chỗ cũ.";
 $l['redirect_namechanged'] = "Tên bạn đã được thay đổi.<br />Diễn đàn bạn chọn đã được thêm vào danh sách theo dõi.<br />Bạn sẽ được đưa trở về bảng điều khiển.";
-$l['redirect_emailupdated'] = "Email của bạn đã được thay đổi.<br />Bạn sẽ được đưa trở về bảng điều khiển.";
+$l['redirect_emailupdated'] = "Thư điện tử của bạn đã được thay đổi.<br />Bạn sẽ được đưa trở về bảng điều khiển.";
 $l['redirect_passwordupdated'] = "Cảm ơn , mật mã của bạn đã được thay đổi.<br />Bạn sẽ được đưa trở về bảng điều khiển.";
-$l['redirect_changeemail_activation'] = "Email của bạn đã được thay đổi,bạn cần phải xác nhận email này là của bạn.<p>Xin vui lòng kiểm tra địa chỉ email mới mà bạn đã chỉ định để biết thêm hướng dẫn về việc làm thế nào để hoàn thành quá trình kích hoạt tài khoản.</p>";
+$l['redirect_changeemail_activation'] = "Thư điện tử của bạn đã được thay đổi,bạn cần phải xác nhận thư điện tử này là của bạn.<p>Xin vui lòng kiểm tra địa chỉ thư điện tử mới mà bạn đã chỉ định để biết thêm hướng dẫn về việc làm thế nào để hoàn thành quá trình kích hoạt tài khoản.</p>";
 $l['redirect_avatarupdated'] = "Ảnh đại diện của bạn đã được thay đổi.<br />Bạn sẽ được đưa trở về bảng điều khiển.";
 $l['error_noavatar'] = "Bạn chưa chọn ảnh đại diện.Xin hãy trở lại và làm như vậy ngay bây giờ.Nếu bạn không muốn ảnh đại diện, hãy chọn \"No Avatar\".";
 $l['error_avatartype'] = "Tập tin không hợp lệ. Ảnh đại diện phải được tải lên trong dạng GIF, JPEG, hoặc PNG.";
@@ -341,15 +341,15 @@ $l['avatar_auto_resize_note'] = "Nếu ảnh đại diện của bạn quá lớ
 $l['avatar_auto_resize_option'] = "Thu nhỏ ảnh đại diện nếu nó quá lớn.";
 $l['subscribe_to_thread'] = "Theo dõi chủ đề: {1}";
 $l['notification_method'] = "Phương thức thông báo:";
-$l['no_notification'] = "Không thông báo bằng email";
-$l['no_notification_desc'] = "Bạn sẽ không nhận được email thông báo nào nếu chủ đề có trả lời.";
-$l['instant_notification'] = "Thông báo bằng email";
-$l['instant_notification_desc'] = "Bạn sẽ nhận được email thông báo nếu chủ đề có bài trả lời.";
+$l['no_notification'] = "Không thông báo bằng thư điện tử";
+$l['no_notification_desc'] = "Bạn sẽ không nhận được thư điện tử thông báo nào nếu chủ đề có trả lời.";
+$l['instant_notification'] = "Thông báo bằng thư điện tử";
+$l['instant_notification_desc'] = "Bạn sẽ nhận được thư điện tử thông báo nếu chủ đề có bài trả lời.";
 $l['do_subscribe'] = "Chủ đề được theo dõi";
 $l['subscription_method'] = "Mặc định chế độ theo dõi chủ đề:";
 $l['no_auto_subscribe'] = "Không theo dõi";
-$l['no_email_subscribe'] = "Không thông báo bằng emal";
-$l['instant_email_subscribe'] =  "Thông báo bằng email";
+$l['no_email_subscribe'] = "Không thông báo bằng thư điện tử";
+$l['instant_email_subscribe'] =  "Thông báo bằng thư điện tử";
 $l['with_selected'] = "Với lựa chọn:";
 $l['delete_subscriptions'] = "Xóa theo dõi";
 $l['update_no_notification'] = "Không thông báo thay đổi";;

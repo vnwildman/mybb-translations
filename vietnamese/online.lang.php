@@ -1,26 +1,26 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
- * 
- * $Id: online.lang.php 5635 2012-02-27 08:45:33Z Community MyBB Vietnam $
+ * MyBB 1.6 Vietnamese Language Pack
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: online.lang.php 5788 2012-04-19 13:35:01Z Tomm $
  */
 
 $l['nav_online'] = "Ai đang online";
 $l['nav_onlinetoday'] = "Ai đã online hôm nay";
 
-$l['viewing_announcements'] = "Đang xem thông báo của<a href=\"{1}\">{2}</a>";
+$l['viewing_announcements'] = "Đang xem thông báo <a href=\"{1}\">{2}</a>";
 $l['viewing_announcements2'] = "Đang xem thông báo của forum";
 $l['viewing_attachment'] = "Đang xem file đính kèm";
 $l['viewing_attachment2'] = "Đang xem <a href=\"attachment.php?aid={1}\" target=\"_blank\">file đính kèm</a> trong bài <a href=\"{3}\">{2}</a>";
 $l['viewing_calendar'] = "Đang xem <a href=\"calendar.php\">lịch</a>";
 $l['viewing_event'] = "Đang xem sự kiện";
 $l['viewing_event2'] = "Đang xem sự kiện <a href=\"{1}\">{2}</a>";
-$l['adding_event'] = "<a href=\"calendar.php?action=addevent\">Thêm sự kiện</a>";
+$l['adding_event'] = "<a href=\"calendar.php?action=addevent\">Đang thêm sự kiện</a>";
 $l['editing_event'] = "Chỉnh sửa sự kiện";
 $l['editing_post'] = "Chỉnh sửa bài viết";
 $l['viewing_forum'] = "Đang xem diễn đàn";
-$l['viewing_forum2'] = "Đang xem diễn đàm <a href=\"{1}\">{2}</a>";
+$l['viewing_forum2'] = "Đang xem diễn đàn <a href=\"{1}\">{2}</a>";
 $l['forum_redirect_to'] = "Đang được chuyển đến <a href=\"{1}\">{2}</a>";
 $l['viewing_index'] = "{1} <a href=\"index.php\">Trang chủ</a>";
 $l['activating_account'] = "Đang kích hoạt tài khoản";
@@ -35,8 +35,8 @@ $l['rating_user'] = "Đang đánh giá thành viên khác";
 $l['viewing_memberlist'] = "Đang xem <a href=\"memberlist.php\">danh sách thành viên</a>";
 $l['viewing_whoposted'] = "Đang xem ai đã gửi bài";
 $l['viewing_whoposted2'] = "Đang xem ai đã gửi bài trong chủ đề <a href=\"{1}\">{2}</a>";
-$l['marking_read'] = "<a href=\"misc.php?action=markread\">Đánh dấu là đã đọc</a>";
-$l['viewing_helpdocs'] = "Đang xem <a href=\"misc.php?action=help\">tài liệu giúp đỡ</a>";
+$l['marking_read'] = "<a href=\"misc.php?action=markread&amp;my_post_key={1}\">Đánh dấu là đã đọc</a>";
+$l['viewing_helpdocs'] = "Đang xem <a href=\"misc.php?action=help\">tài liệu trợ giúp</a>";
 $l['viewing_buddylist'] = "Đang xem <a href=\"misc.php?action=buddypopup\">danh sách bạn bè</a>";
 $l['viewing_smilies'] = "Đang xem <a href=\"misc.php?action=smilies\">danh sách mặt cười</a>";
 $l['viewing_syndication'] = "Đang xem <a href=\"misc.php?action=syndication\">RSS Syndication</a> Page";
@@ -50,7 +50,7 @@ $l['creating_poll'] = "Đang tạo bình chọn mới";
 $l['editing_poll'] = "Đang chỉnh sửa bình chọn";
 $l['viewing_pollresults'] = "Đang xem kết quả của bình chọn";
 $l['voting_poll'] = "Đang bỏ phiếu cho bình chọn";
-$l['using_modtools'] = "Đang sử dụng chức năng quản lí";
+$l['using_modtools'] = "Đang sử dụng chức năng quản lý";
 $l['sending_pm'] = "Đang gửi tin nhắn riêng";
 $l['reading_pm'] = "Đang đọc tin nhắn riêng";
 $l['editing_pmfolders'] = "Đang chỉnh sửa thư mục các tin nhắn";
@@ -75,6 +75,7 @@ $l['viewing_noperms'] = "Đang xem trang No Permissions";
 $l['unknown_location'] = "<a href=\"{1}\">Không biết</a>";
 $l['giving_reputation'] = "Đang cho danh tiếng <a href=\"{1}\">{2}</a>";
 $l['viewing_reputation_report'] = "Đang xem <a href=\"{1}\">{2}'s Danh tiếng</a>";
+$l['viewing_reputation_report2'] = "Xem danh tiếng";
 $l['member_resendactivation'] = "Đang gửi lại email kích hoạt";
 $l['member_lostpw'] = "Đang tìm lại <a href=\"member.php?action=lostpw\">mật khẩu</a>";
 $l['sending_thread'] = "Đang gửi một chủ đề cho bạn";
@@ -89,14 +90,14 @@ $l['refresh_page'] = "Làm mới trang này";
 $l['online_online_plural'] = "người dùng";
 $l['online_online_singular'] = "người dùng";
 $l['online_member_plural'] = "thành viên";
-$l['online_member_singular'] = "thành vien";
+$l['online_member_singular'] = "thành viên";
 $l['online_anon_plural'] = "đang";
 $l['online_anon_singular'] = "đang";
 $l['online_guest_plural'] = "khách";
 $l['online_guest_singular'] = "khách";
 $l['online_count'] = "{1} {2} hoạt động trong vòng {3} phút qua ({4} {5}, {6} người {7} ẩn, và {8} {9}).";
 $l['ip'] = "IP:";
-$l['resolves_to'] = "Host Name:";
+$l['resolves_to'] = "Tên máy:";
 $l['if_resolvable'] = "(nếu giải quyết được)";
 $l['admin_options'] = "Tùy chọn cho Admin:";
 $l['search_regip_users'] = "Tìm kiếm thành viên đã đăng kí bằng IP này";
@@ -121,15 +122,15 @@ $l['viewing_reports'] = "Đang xem các bài viết bị báo cáo";
 $l['adding_announcement'] = "Đang thêm thông báo";
 $l['deleting_announcement'] = "Đang xóa thông báo";
 $l['editing_announcement'] = "Đang chỉnh sửa một thông báo";
-$l['managing_modqueue'] = "Đang quản lí Moderation Queue";
+$l['managing_modqueue'] = "Đang quản lý Hàng đợi Điều phối";
 $l['editing_user_profiles'] = "Đang chỉnh sửa hồ sơ thành viên";
-$l['managing_bans'] = "Đang quản lí các lệnh cấm";
+$l['managing_bans'] = "Đang quản lý các lệnh cấm";
 $l['revoking_warning'] = "Đang thu hồi một cảnh cáo";
 $l['warning_user'] = "Đang cảnh cáo một thành viên";
 $l['viewing_warning'] = "Đang xem một sự cảnh cáo";
-$l['managing_warnings'] = "Đang quản lí các lời cảnh cáo";
+$l['managing_warnings'] = "Đang quản lý các lời cảnh cáo";
 $l['changing_dst'] = "Đang thay đổi DST Switch";
 $l['printing_thread'] = "Đang in một chủ đề";
 $l['printing_thread2'] = "Đang in chủ đề <a href=\"{1}\">{2}</a>";
-$l['managing_buddyignorelist'] = "Đang quản lí danh sách bạn bè/từ chối";
+$l['managing_buddyignorelist'] = "Đang quản lý danh sách bạn bè/từ chối";
 ?>

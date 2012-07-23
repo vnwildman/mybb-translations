@@ -1,9 +1,9 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
- *
- * $Id: private.lang.php 5608 2012-02-27 14:05:43Z Community MyBB Vietnam $
+ * MyBB 1.6 Vietnamese Language Pack
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: private.lang.php 5828 2012-05-08 16:06:16Z Tomm $
  */
 
 $l['nav_pms'] = "Tin nhắn cá nhân";
@@ -24,14 +24,14 @@ $l['pms_disabled'] = "Bạn không thể sử dụng chức năng tin nhắn cá
 
 $l['private_messaging'] = "Tin nhắn cá nhân";
 $l['inbox'] = "Hộp thư";
-$l['compose_message'] = "Soạn tin";
+$l['compose_message2'] = "Soạn tin";
 $l['manage_folders'] = "Quản lý thư mục";
 $l['pms_in_folder'] = "Tin nhắn cá nhân trong thư mục <em>{1}</em>";
 $l['pm_search_results'] = "Kết quả tìm kiếm tin nhắn riêng";
 $l['message_title'] = "Tiêu đề tin nhắn";
-$l['sender'] = "Người gởi";
-$l['sentto'] = "Gởi đến";
-$l['date_sent'] = "Ngày giờ gởi";
+$l['sender'] = "Người gửi";
+$l['sentto'] = "Gửi đến";
+$l['date_sent'] = "Ngày giờ gửi";
 $l['delete_pm'] = "Xoá";
 $l['move_to'] = "Di chuyển đến";
 $l['or'] = "hoặc";
@@ -40,7 +40,7 @@ $l['go'] = "Thực hiện!";
 $l['pmspaceused'] = "của dung lượng sử dụng.";
 $l['jump_folder'] = "Nhảy đến thư mục:";
 $l['archive_messages'] = "Xuất tin nhắn cá nhân";
-$l['archive_note'] = "Công cụ này sẽ giúp bạn tải tin nhắn cá nhân ở thư mục được chọn, tin nhắn đã được gởi, tin nhắn bạn đọc, tin nhắn nháp.";
+$l['archive_note'] = "Công cụ này sẽ giúp bạn tải tin nhắn cá nhân ở thư mục được chọn, tin nhắn đã được gửi, tin nhắn bạn đọc, tin nhắn nháp.";
 $l['folders'] = "Thư mục";
 $l['all_folders'] = "Tất cả các thư mục";
 $l['date_limit'] = "Ngày giới hạn:";
@@ -52,16 +52,16 @@ $l['export_unread'] = "Xuất tin nhắn chưa đọc?";
 $l['delete_archived'] = "Xoá tin nhắn đã xuất?";
 $l['delete_archived_note'] = "Bạn có muốn xoá tin nhắn trong thư mục mà bạn xuất?";
 $l['export_format'] = "Định dạng file để xuất";
-$l['export_format_note'] = "Bạn hãy chọn định dạng file để tài về.";
-$l['export_html'] = "HTML File (.html)";
-$l['export_txt'] = "Text File (.txt)";
-$l['export_csv'] = "Importable MS Excel File (.csv)";
+$l['export_format_note'] = "Bạn hãy chọn định dạng tập tin mà bạn muốn tải về.";
+$l['export_html'] = "Tập tin HTML (.html)";
+$l['export_txt'] = "Tập tin thường (.txt)";
+$l['export_csv'] = "Tập tin có thể nhập vào MS Excel (.csv)";
 $l['private_messages_for'] = "Tin nhắn cá nhân cho {1}";
 $l['exported_date']  = "Xuất: {1}, {2}";
 $l['subject'] = "Tiêu đề:";
 $l['to'] = "Đến:";
 $l['from'] = "Từ:";
-$l['sent'] = "Gởi bởi:";
+$l['sent'] = "Gửi bởi:";
 $l['export_messages2'] = "Tải tin nhắn";
 $l['empty_folders'] = "Xoá tin nhắn trong thư mục tin nhắn cá nhân";
 $l['empty_folders2'] = "Xoá tin nhắn trong thư mục";
@@ -79,7 +79,7 @@ $l['update_folders'] = "Cập nhật thư mục";
 $l['cannot_be_removed'] = "Không thể xoá";
 $l['reached_warning'] = "Cảnh báo. bạn đã có quá nhiều tin nhắn.";
 $l['reached_warning2'] = "Để nhận được các tin nhắn mới bạn cần phải xoá những tin nhắn cũ đi.";
-$l['deny_receipt'] = "[deny receipt]";
+$l['deny_receipt'] = "[từ chối nhận]";
 $l['viewing_pm'] = "Xem trả lời:";
 $l['reply'] = "Trả lời";
 $l['reply_to_all'] = "Trả lời tất cả";
@@ -88,17 +88,18 @@ $l['compose_pm'] = "Soạn tin nhắn cá nhân";
 $l['compose_to'] = "Người nhận:";
 $l['compose_bcc'] = "BCC:";
 $l['compose_bcc_show'] = "BCC";
-$l['compose_bcc_show_title'] = "Show the BCC input box allowing you to blind carbon copy messages to other users.";
-$l['separate_names'] = "Để gởi cho nhiều người bạn cần viết tên của thành viên cách nhau bằng dấu phẩy.";
-$l['max_recipients'] = "<br />Bạn chỉ có thể gởi tối đa cho <strong>{1}</strong> người.";
+$l['compose_bcc_show_title'] = "Hiển thị hộp nhập BCC cho phép bạn gửi bản sao của tin nhắn đến những người khác nữa.";
+$l['separate_names'] = "Để gửi cho nhiều người bạn cần viết tên của thành viên cách nhau bằng dấu phẩy.";
+$l['max_recipients'] = "<br />Bạn chỉ có thể gửi tối đa cho <strong>{1}</strong> người.";
 $l['compose_subject'] = "Tiêu đề:";
 $l['compose_message'] = "Tin nhắn:";
-$l['compose_options'] = "Thiết đặt:";
+$l['compose_options'] = "Tùy chọn:";
+$l['message_icon'] = "Biểu tượng Tin nhắn:";
 $l['options_sig'] = "<strong>Chữ ký:</strong> Chèn chữ ký của bạn vào tin nhắn.";
 $l['options_disable_smilies'] = "<strong>Không sử dụng biểu cảm:</strong> Không thể hiện bất kỳ biểu cảm nào trong tin nhắn.";
-$l['options_save_copy'] = "<strong>Tạo bản sao:</strong> Tạo bản sao cho tin nhắn này trong thư mục Tin nhắn đã gởi.";
-$l['options_read_receipt'] = "<strong>Xác nhận người nhận:</strong> Gởi tin nhắn lại cho tôi khi người nhận đã đọc tin nhắn.";
-$l['send_message'] = "Gởi tin nhắn";
+$l['options_save_copy'] = "<strong>Tạo bản sao:</strong> Tạo bản sao cho tin nhắn này trong thư mục Tin nhắn đã gửi.";
+$l['options_read_receipt'] = "<strong>Xác nhận người nhận:</strong> Gửi tin nhắn lại cho tôi khi người nhận đã đọc tin nhắn.";
+$l['send_message'] = "Gửi tin nhắn";
 $l['save_draft'] = "Lưu nháp";
 $l['preview'] = "Xem trước";
 $l['select_buddy'] = "Hoặc chọn chế độ ẩn:";
@@ -108,7 +109,7 @@ $l['unread_messages'] = "Tin nhắn chưa đọc";
 $l['q'] = "?";
 $l['dateread'] = "Ngày đọc";
 $l['stop_tracking'] = "Dừng theo dõi";
-$l['datesent'] = "Ngày gởi";
+$l['datesent'] = "Ngày gửi";
 $l['cancel'] = "Huỷ bỏ";
 $l['export_date_sent'] = "Ngày";
 $l['export_folder'] = "Thư mục";
@@ -116,7 +117,7 @@ $l['export_subject'] = "Tiêu đề";
 $l['export_to'] = "Đến";
 $l['export_from'] ="Từ";
 $l['export_message'] = "Tin nhắn";
-$l['not_sent'] = "Rỗng (không gởi)";
+$l['not_sent'] = "N/A (không gửi)";
 $l['at'] = "ở";
 $l['nomessages'] = "Không có tin nhắn cá nhân nào trong thư mục.";
 $l['details'] = "Thông tin";
@@ -146,29 +147,29 @@ $l['search_in_message'] = "Tìm bởi tin nhắn";
 $l['message_status'] = "Trạng thái tin nhắn";
 $l['message_status_new'] = "Mới";
 $l['message_status_replied_to'] = "Trả lời đến";
-$l['message_status_forwarded'] = "Chuyển tiếp";
-$l['message_status_read'] = "Đã đọc";
-$l['folder'] = "Folder";
+$l['message_status_forwarded'] = "Đã chuyển tiếp";
+$l['message_status_read'] = "Đọc";
+$l['folder'] = "Thư mục";
 $l['search_options'] = "Tùy chọn tìm kiếm";
 $l['sort_by'] = "Phân loại theo";
 $l['sort_by_subject'] = "Phân loại theo: Tiêu đề";
-$l['sort_by_sender'] = "Phân loại theo: Người gởi";
+$l['sort_by_sender'] = "Phân loại theo: Người gửi";
 $l['sort_by_date'] = "Phân loại theo: Ngày gửi";
 $l['ascending_order'] = "Từ nhỏ đến lớn";
 $l['descending_order'] = "Từ lớn đến nhỏ";
 $l['search_private_messages'] = "Tìm kiến tin nhắn riêng";
-$l['check_all'] = "Đánh dấu tất cả";
+$l['check_all'] = "Chọn tất cả";
 
 $l['error_nopmsarchive'] = "Xin lỗi nhưng tin nhắn cá nhân của bạn không đúng với tiêu chuẩn cho phép.";
 $l['error_invalidpmfoldername'] = "Xin lỗi nhưng tên thư mục bạn nhập chứa ký tự không cho phép.";
 $l['error_emptypmfoldername'] = "Xin lỗi nhưng tên thư mục bạn nhập không chứa bất kỳ ký tự nào.Bạn hãy nhập tên cho thư mục hoặc để trống nếu muốn xoá thư mục.";
 $l['error_invalidpmrecipient'] = "Tên người nhận bạn nhập không tồn tại. Bạn hãy kiểm tra lại cho chính xác.";
-$l['error_invalidpm'] = "Invalid PM";
-$l['error_pmrecipientreachedquota'] = "Bạn không thể gởi tin nhắn cá nhân cho {1} bởi vì anh/cô ấy đã có quá nhiều tin nhắn. Mọi người không thể gởi bất kỳ tin nào cho đến khi người đó làm sạch hộp tin. Bạn hãy gởi lại sau.";
-$l['error_recipientpmturnedoff'] = "{1} mà bạn chọn đã không nhận tin nhắn hoặc không chấp nhận tin nhắn. Điều này không có nghĩa là bạn không gởi tin nhắn cho người này được. Bạn hãy thử lại lần sau.";
-$l['error_pmsturnedoff'] = "You currently have private messages disabled in your profile.<br />To be able to use the private messaging system this setting must be enabled.";
-$l['error_recipientignoring'] = "Chúng tôi xin lỗi nhưng không thể gởi tin nhắn đến {1}. Có thể bạn không được cấp phép để thực hiện điều này.";
-$l['error_pm_already_submitted'] = "Bạn đã chấp nhận gởi tin nhắn cá nhân cho người này trong 5 phút trước.";
+$l['error_invalidpm'] = "PM Không hợp lệ";
+$l['error_pmrecipientreachedquota'] = "Bạn không thể gửi tin nhắn cá nhân cho {1} bởi vì anh/cô ấy đã có quá nhiều tin nhắn. Mọi người không thể gửi bất kỳ tin nào cho đến khi người đó làm sạch hộp tin. Bạn hãy gửi lại sau.";
+$l['error_recipientpmturnedoff'] = "{1} mà bạn chọn đã không nhận tin nhắn hoặc không chấp nhận tin nhắn. Điều này không có nghĩa là bạn không gửi tin nhắn cho người này được. Bạn hãy thử lại lần sau.";
+$l['error_pmsturnedoff'] = "Bạn hiện giờ tắt tin nhắn riêng.<br />Để bật nó lên để sử dụng tin nhắn riêng bạn cần cài đặt nó là bật.";
+$l['error_recipientignoring'] = "Chúng tôi xin lỗi nhưng không thể gửi tin nhắn đến {1}. Có thể bạn không được cấp phép để thực hiện điều này.";
+$l['error_pm_already_submitted'] = "Bạn đã chấp nhận gửi tin nhắn cá nhân cho người này trong 5 phút trước.";
 
 $l['error_minsearchlength'] = "Từ tìm kiếm của bạn ngắn hơn quy định. Quy định của từ tìm kiếm ít nhất là phải {1} từ.<br /><br />Nếu bạn muốn tìm kiếm một cụm từ, hãy đặt dấu ngoặc kép bao quanh cụm từ đó. Ví dụ \"Con cáo nâu nhanh nhẹn nhảy qua con chó lười biếng\".";
 $l['error_nosearchresults'] = "Xin lỗi, nhựng chúng tôi không tìm thấy kết quả tìm kiếm của bạn. Xin hãy thử với từ khóa khác.";
@@ -183,7 +184,7 @@ $l['redirect_pmstrackingstopped'] = "Tin nhắn theo dõi đã được dừng l
 $l['redirect_pmstrackingcanceled'] = "Tin nhắn chưa đọc đã bị xoá khỏi hộp thư của người nhận.";
 $l['redirect_pmsmoved'] = "Tin nhắn bạn chọn đã bị di chuyển.";
 $l['redirect_pmsdeleted'] = "Tin nhắn bạn chọn đã bị xoá.<br />Bạn sẽ được chuyển đến hộp thư trả lời.";
-$l['redirect_pmsent'] = "Cảm ơn, tin nhắn cá nhân đã được gởi thành công.<br />Bạn đang được chuyển đến hộp thư cá nhân.";
+$l['redirect_pmsent'] = "Cảm ơn, tin nhắn cá nhân đã được gửi thành công.<br />Bạn đang được chuyển đến hộp thư cá nhân.";
 $l['redirect_pmfoldersupdated'] = "Cảm ơn, thư mục chứa tin nhắn đã được cập nhật.<br />Bạn đang được chuyển đến hộp tin nhắn cá nhân.";
 $l['redirect_pmfoldersemptied'] = "Thư mục chưa tin nhắn cá nhân bạn chọn đã được làm rỗng.<br />Bạn đang được chuyển về hộp tin nhắn cá nhân.";
 $l['redirect_searchresults'] = "Xin cảm ơn, bạn đang được đưa vào danh sách kết quả.";

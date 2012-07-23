@@ -1,12 +1,12 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
- * 
- * $Id: warnings.lang.php 5557 2012-02-27 14:06:44Z Community MyBB Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: warnings.lang.php 5814 2012-04-20 14:36:07Z Tomm $
  */
  
-$l['nav_warning_log'] = "Warning Log";
+$l['nav_warning_log'] = "Nhật ký Cảnh báo";
 $l['nav_add_warning'] = "Thành viên bị cảnh báo";
 $l['nav_view_warning'] = "Chi tiết cảnh báo";
 
@@ -14,7 +14,7 @@ $l['warning_for_post'] = ".. Bài viết:";
 $l['already_expired'] = "Hết hiệu lực";
 $l['warning_active'] = "Kích hoạt";
 $l['warning_revoked'] = "Thu hồi";
-$l['warning_log'] = "Warning Log";
+$l['warning_log'] = "Nhật ký Cảnh báo";
 $l['warning'] = "Cảnh báo";
 $l['issued_by'] = "Đưa ra bởi";
 $l['date_issued'] = "Ngày đưa ra";
@@ -25,23 +25,24 @@ $l['warning_points'] = "({1} điểm)";
 $l['no_warnings'] = "Thành viên này không bị cảnh báo hoặc toàn bô các cảnh bảo đã được xóa.";
 $l['warn_user'] = "Cảnh báo thành viên";
 $l['post'] = "Bài viết:";
-$l['warning_note'] = "Ghi chú của Administrative:";
-$l['warning_type'] = "Mức dộ cảnh báo:";
+$l['warning_note'] = "Ghi chú của Người quản trị:";
+$l['warning_type'] = "Kiểu cảnh báo:";
 $l['custom'] = "Lý do";
 $l['reason'] = "Lý do:";
 $l['points'] = "Điểm:";
 $l['warn_user_desc'] = "Ở đây bạn có thể tăng mức độ cảnh báo của thành viên nếu họ vi phạm điều lệ của diễn đàn.";
 $l['send_pm'] = "Thông báo thành viên:";
-$l['send_user_warning_pm'] = "Gởi tin nhắn cho thành viên này để thông báo về lời cảnh báo.";
+$l['send_user_warning_pm'] = "Gửi tin nhắn cho thành viên này để thông báo về lời cảnh báo.";
 $l['send_pm_subject'] = "Tiêu đề:";
 $l['warning_pm_subject'] = "Bạn đã bị cảnh báo.";
 $l['send_pm_message'] = "Nội dung:";
-$l['warning_pm_message'] = "Gởi {1}
+$l['warning_pm_message'] = "Gửi {1}
 
 Bạn đã bị nhận cảnh báo từ người điều hành bởi {2}.
 --
 
 --";
+$l['expiration_never'] = "vĩnh viễn";
 $l['expiration_hours'] = "giờ";
 $l['expiration_days'] = "ngày";
 $l['expiration_weeks'] = "tuần";
@@ -77,7 +78,7 @@ $l['result'] = "Kết quả:";
 $l['result_banned'] = "Thành viên sẽ được chuyển đến nhóm khóa ({1}) {2}";
 $l['result_suspended'] = "Quyền viết bài sẽ bị khóa {1}";
 $l['result_moderated'] = "Bài viết sẽ được bởi quản lý bởi {1}";
-$l['result_period'] = "{1} {2}";
+$l['result_period'] = "cho {1} {2}";
 $l['hour_or_hours'] = "Giờ";
 $l['day_or_days'] = "Ngày";
 $l['week_or_weeks'] = "Tuần";

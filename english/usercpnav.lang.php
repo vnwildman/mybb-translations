@@ -3,7 +3,7 @@
  * MyBB 1.6 English Language Pack
  * Copyright 2010 MyBB Group, All Rights Reserved
  * 
- * $Id: usercpnav.lang.php 5297 2010-12-28 22:01:14Z Tomm $
+ * $Id: usercpnav.lang.php 2012-02-27 16:00:00Z Community MyBB Vietnam $
  */
 
 $l['ucp_nav_width'] = "180";

@@ -1,14 +1,14 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2010 Community MyBB Vietnam, All Rights Reserved
- * 
- * $Id: syndication.lang.php 2012-02-27 16:00:00Z Community MyBB Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: syndication.lang.php 5297 2010-12-28 22:01:14Z Tomm $
  */
 
 $l['all_forums'] = "Tất cả";
 $l['forum'] = "Diễn đàn:";
-$l['posted_by'] = "Người gửi:";
-$l['on'] = "on";
+$l['posted_by'] = "Gửi bởi:";
+$l['on'] = "bật";
 
 ?>

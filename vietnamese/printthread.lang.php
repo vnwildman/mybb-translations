@@ -1,13 +1,13 @@
 <?php 
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
- * 
- * $Id: printthread.lang.php 5297 2012-02-27 22:01:14Z Community MyBB Vietnam $
+ * MyBB 1.6 Vietnamese Language Pack
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: printthread.lang.php 5297 2010-12-28 22:01:14Z Tomm $
  */
 
 $l['forum'] = "Diễn đàn:";
-$l['printable_version'] = "Bản rút gọn";
+$l['printable_version'] = "Bản in";
 $l['pages'] = "Số trang:";
 $l['thread'] = "Chủ đề:";
 ?>

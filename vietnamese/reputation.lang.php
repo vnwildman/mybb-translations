@@ -1,13 +1,13 @@
 <?php
 /**
- * MyBB 1.6 English Language Pack
- * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
- *
- * $Id: reputation.lang.php 5593 2012-02-27 10:28:41Z Community MyBB Vietnam $
+ * MyBB 1.6 Vietnamese Language Pack
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: reputation.lang.php 5750 2012-03-09 12:21:10Z Tomm $
  */
 
 $l['nav_reputation'] = "Báo cáo danh tiếng";
-$l['nav_profile'] = "Thông tin của {1}";
+$l['nav_profile'] = "Tiểu sử của {1}";
 $l['reputation_disabled'] = "Bạn không thể sử dụng chức năng danh tiếng vì ban quản trị đã đóng chức năng này.";
 
 $l['reputation'] = "Danh tiếng";
@@ -31,7 +31,7 @@ $l['reputation_members'] = "Danh tiếng từ thành viên:";
 $l['reputation_posts'] = "Danh tiếng từ bài viết:";
 $l['summary'] = "Tóm tắt";
 $l['total_reputation'] = "Số danh tiếng hiện có";
-$l['post_reputation'] = "Đăng Danh tiếng";
+$l['post_reputation'] = "Gửi Danh tiếng";
 $l['positive_count'] = "Tích cực";
 $l['neutral_count'] = "Trung lập";
 $l['negative_count'] = "Tiêu cực";
@@ -76,8 +76,7 @@ $l['postrep_post'] = "Bài viết số #";
 $l['postrep_given'] = "Đánh giá đã được trao cho {1}<br />";
 $l['no_reputation_votes'] = "Thành viên này hiện không có bất kỳ điểm danh tiếng nào với các tiêu chuẩn quy định dưới đây.";
 $l['delete_reputation_confirm'] = "Bạn có chắc là bạn muốn xóa điểm đánh giá danh tiếng này?";
-$l['delete_reputation_log'] = "Gỡ bỏ Danh tiếng bởi {1}";
+$l['delete_reputation_log'] = "Gỡ bỏ Danh tiếng bởi {1} (UID: {2})";
 $l['reputations_disabled_group'] = "Các hệ thống danh tiếng bị vô hiệu hóa cho người dùng của nhóm người sử dụng.";
 $l['rate_user'] = "Đánh giá thành viên";
 ?>
-

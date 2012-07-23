@@ -1,9 +1,9 @@
 <?php
 /**
  * MyBB 1.6 Vietnamese Language Pack
- * Copyright 2012 Community MyBB Vietnam, All Rights Reserved
- * 
- * $Id: xmlhttp.lang.php 2012-02-27 16:00:00Z Community MyBB Vietnam $
+ * This file is distributed under the same license as the MyBB package.
+ * Keep Id line in order to compare version.
+ * $Id: xmlhttp.lang.php 5701 2011-12-07 08:48:12Z Tomm $
  */
 
 $l['no_new_subject'] = "Bạn đã không nhập một chủ đề mới.";
@@ -22,22 +22,22 @@ $l['captcha_not_exists'] = "Ảnh xác nhập không tồn tại.";
 $l['captcha_valid_not_exists'] = "Ảnh xác nhập không tồn tại.";
 $l['captcha_does_not_match'] = "Bạn đã nhập sai mã trong ảnh xác nhận. Bạn hãy nhập lại cho thật chính xác.";
 $l['captcha_matches'] = "Bạn đã nhập đúng mã trong ảnh xác nhập.";
-$l['banned_username'] = "Tên đăng ký của bạn nhập đã không được  Administrator chấp nhận";
-$l['banned_characters_username'] = "Tên đăng nhập của bạn chứa ký tự không cho phép";
-$l['complex_password_fails'] = "Mật mã không đủ phức tạp";
-$l['username_taken'] = "{1} đã bị đăng ký bởi thành viên khác";
+$l['banned_username'] = "Tên đăng ký của bạn nhập đã không được  Người quản trị chấp nhận";
+$l['banned_characters_username'] = "Tên đăng nhập của bạn chứa một hay nhiều ký tự không cho phép";
+$l['complex_password_fails'] = "Mật khẩu không đủ phức tạp, yêu cầu cần có một chữ HOA, một chữ thường và một con số";
+$l['username_taken'] = "{1} đã được đăng ký bởi thành viên khác";
 $l['username_available'] = "{1} có thể sử dụng";
 $l['invalid_username'] = "{1} không phải là tên đăng nhập có thể sử dụng";
 $l['valid_username'] = "{1} là người giới thiệu không tồn tại.";
-$l['buddylist_error'] = "Nó có vẻ như bạn không có bạn bè trong danh sách bạn bè của bạn. Xin vui lòng thêm một số trước khi thử sử dụng.";
+$l['buddylist_error'] = "Có vẻ như bạn không có bạn bè trong danh sách bạn bè của bạn. Xin vui lòng thêm một số tài khoản trước khi thử sử dụng.";
 $l['close'] = "Đóng";
 $l['select_buddies'] = "Chọn Bạn";
 $l['select_buddies_desc'] = "Để thêm một hoặc nhiều bạn bè của bạn như người nhận, chọn bên dưới và nhấn OK.";
 $l['selected_recipients'] = "Lựa chọn người nhận";
 $l['ok'] = "OK";
-$l['cancel'] = "Cancel";
+$l['cancel'] = "Hủy bỏ";
 $l['online'] = "Online";
 $l['offline'] = "Offline";
 $l['edited_post'] = "Đã sửa bài viết";
-$l['usergroup'] = "Usergroup";
+$l['usergroup'] = "Nhóm người dùng";
 ?>
