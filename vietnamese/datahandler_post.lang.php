@@ -2,7 +2,7 @@
 /**
  * MyBB 1.6 Vietnamese Language Pack
  * This file is distributed under the same license as the MyBB package.
- * Keep Id line in order to compare version.
+ * Origin:
  * $Id: datahandler_post.lang.php 5688 2011-11-29 16:53:15Z Tomm $
  */
 

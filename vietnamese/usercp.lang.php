@@ -2,7 +2,7 @@
 /**
  * MyBB 1.6 Vietnamese Language Pack
  * This file is distributed under the same license as the MyBB package.
- * Keep Id line in order to compare version.
+ * Origin:
  * $Id: usercp.lang.php 5616 2011-09-20 13:24:59Z Tomm $
  */
 
