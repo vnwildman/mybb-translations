@@ -7,7 +7,7 @@
  */
 
 $l['click_no_wait'] = "Bấm vào đây nếu bạn không muốn chờ đợi lâu hơn.";
-$l['redirect_return_forum'] = "<br /><br />Hoặc, <a href=\"{1}\">trở về diễn đàn</a>.
+$l['redirect_return_forum'] = "<br /><br />Hoặc, <a href=\"{1}\">trở về diễn đàn</a>.";
 $l['redirect_emailsent'] = "Thư của bạn đã được gửi thành công.";
 $l['redirect_loggedin'] = "Bạn đã đăng nhập thành công<br />Bây giờ bạn sẽ được đưa về vị trí trước khi đăng nhập.<br/><br/> <img src=\"images/loading.gif\" />";
 
