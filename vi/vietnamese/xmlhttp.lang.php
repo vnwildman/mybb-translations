@@ -36,8 +36,8 @@ $l['select_buddies_desc'] = "Để thêm một hoặc nhiều bạn bè của b�
 $l['selected_recipients'] = "Lựa chọn người nhận";
 $l['ok'] = "OK";
 $l['cancel'] = "Hủy bỏ";
-$l['online'] = "Online";
-$l['offline'] = "Offline";
+$l['online'] = "Trực tuyến";
+$l['offline'] = "Ngoại tuyến";
 $l['edited_post'] = "Đã sửa bài viết";
 $l['usergroup'] = "Nhóm người dùng";
 ?>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<project>
+   <paths>
+      <left>E:\My Projects\mybb-translations\en\english\</left>
+      <right>E:\My Projects\mybb-translations\vi\vietnamese\</right>
+      <filter>*.*</filter>
+      <subfolders>0</subfolders>
+      <left-readonly>1</left-readonly>
+      <right-readonly>0</right-readonly>
+   </paths>
+</project>
